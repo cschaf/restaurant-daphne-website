@@ -72,15 +72,34 @@ conn.on('ready', () => {
       // Cleanup old tar.gz files from failed deployments
       console.log('\nCleaning up temporary files...');
       sftp.readdir('/', (err, list) => {
-        if (!err && list) {
-          for (const item of list) {
-            if (item.filename.endsWith('.tar.gz')) {
-              console.log(`  Deleting: ${item.filename}`);
-              sftp.unlink(`/${item.filename}`);
-            }
-          }
+        if (err || !list) {
+          console.log('Cleanup skipped (could not read directory)');
+          process.exit(0);
+          return;
         }
-        process.exit(0);
+
+        const tarFiles = list.filter(item => item.filename.endsWith('.tar.gz'));
+
+        if (tarFiles.length === 0) {
+          console.log('No temp files to clean up.');
+          process.exit(0);
+          return;
+        }
+
+        let deleted = 0;
+        for (const item of tarFiles) {
+          sftp.unlink(`/${item.filename}`, (err) => {
+            if (err) {
+              console.log(`  Failed to delete: ${item.filename}`);
+            } else {
+              console.log(`  Deleted: ${item.filename}`);
+            }
+            deleted++;
+            if (deleted === tarFiles.length) {
+              process.exit(0);
+            }
+          });
+        }
       });
     } catch (e) {
       console.error('Upload error:', e);
