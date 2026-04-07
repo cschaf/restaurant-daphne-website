@@ -1224,9 +1224,24 @@ section h2::after {
     #scrollToTopBtn {
         bottom: 82px;
         right: 16px;
-        width: 42px;
-        height: 42px;
+        width: 44px;
+        height: 44px;
         font-size: 1rem;
+    }
+
+    /* ── Reservation bar: sufficient tap area (WCAG 44px) ── */
+    .reservation-bar a {
+        padding: 0.9rem 1.5rem;
+    }
+
+    /* ── Map: compact height on mobile (was 400px = 60%+ viewport) ── */
+    .map-container {
+        min-height: 260px;
+    }
+
+    /* ── Modal close: avoid iPhone notch / Dynamic Island ── */
+    .close-modal {
+        right: max(30px, calc(env(safe-area-inset-right) + 15px));
     }
 }
 
@@ -1266,7 +1281,7 @@ section h2::after {
         gap: 3px;
         flex: 1;
         color: #888;
-        font-size: 0.65rem;
+        font-size: 0.72rem;
         font-family: var(--font-body);
         font-weight: 500;
         letter-spacing: 0.3px;
@@ -1317,6 +1332,13 @@ section h2::after {
     }
 }
 
+/* Menu cards: single column from 480px (covers iPhone SE at 375px) */
+@media (max-width: 480px) {
+    .menu-cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Very small phones */
 @media (max-width: 380px) {
     .mobile-nav-item span {
@@ -1336,9 +1358,16 @@ section h2::after {
         font-size: 2.2rem;
     }
 
-    .menu-cards-grid {
-        grid-template-columns: 1fr;
+}
+
+/* Landscape mode on small devices (e.g. iPhone SE rotated) */
+@media (orientation: landscape) and (max-height: 500px) {
+    .hero-section {
+        min-height: auto;
+        padding: 3rem 0 2rem;
     }
+    .hero-title { font-size: 1.8rem; }
+    .hero-title span { font-size: 2.2rem; }
 }
 
 /* Issue #2: Respect user's reduced-motion preference */
