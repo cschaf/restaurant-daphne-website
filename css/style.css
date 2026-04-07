@@ -1233,6 +1233,11 @@ section h2::after {
     .reservation-bar a {
         padding: 0.9rem 1.5rem;
     }
+
+    /* ── Map: compact height on mobile (was 400px = 60%+ viewport) ── */
+    .map-container {
+        min-height: 260px;
+    }
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1322,6 +1327,13 @@ section h2::after {
     }
 }
 
+/* Menu cards: single column from 480px (covers iPhone SE at 375px) */
+@media (max-width: 480px) {
+    .menu-cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Very small phones */
 @media (max-width: 380px) {
     .mobile-nav-item span {
@@ -1341,9 +1353,6 @@ section h2::after {
         font-size: 2.2rem;
     }
 
-    .menu-cards-grid {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* Issue #2: Respect user's reduced-motion preference */
