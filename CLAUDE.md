@@ -6,6 +6,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Static HTML/CSS/JS website for Restaurant Daphne, a Greek/Mediterranean restaurant in Bremen, Germany. No build tools, no framework, no package manager — files are served directly.
 
+## Deployment
+
+Die Seite wird automatisch via GitHub Actions auf GitHub Pages deployed (`.github/workflows/deploy.yml`). Jeder Push auf `main` löst ein neues Deployment aus.
+
+**GitHub Pages Kompatibilität ist Pflicht.** Das bedeutet:
+- Keine serverseitigen Skripte (PHP, Node.js, etc.)
+- Keine relativen Pfade mit führendem `/` — stattdessen relative Pfade verwenden (`assets/images/foo.jpg` statt `/assets/images/foo.jpg`), da die Seite unter einem Unterverzeichnis-Pfad laufen kann
+- Keine Build-Tools einführen ohne den Workflow entsprechend anzupassen
+
+Die Seite ist nach Aktivierung erreichbar unter: `https://cschaf.github.io/restaurant-daphne-website/`
+
 ## Development
 
 Open `index.html` in a browser, or serve the root directory with any static file server:
