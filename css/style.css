@@ -56,6 +56,12 @@ body {
     overflow-x: hidden;
 }
 
+/* Issue #1: Focus indicator for keyboard navigation */
+:focus-visible {
+    outline: 2px solid var(--clr-gold);
+    outline-offset: 3px;
+}
+
 h1,
 h2,
 h3,
@@ -131,6 +137,12 @@ img {
     background-color: var(--clr-gold);
     color: #1a1a1a;
     transform: translateY(-2px);
+}
+
+/* Issue #8: Visually secondary gold outline button (smaller, less prominent) */
+.btn-outline-gold {
+    font-size: 0.875rem;
+    padding: 0.6rem 1.4rem;
 }
 
 /* --- Modules / Components --- */
@@ -224,6 +236,9 @@ img {
     font-size: 1.5rem;
     color: var(--clr-gold);
     cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
 }
 
 /* Hero Section with Slider */
@@ -521,6 +536,10 @@ section h2::after {
     font-weight: bold;
     cursor: pointer;
     transition: color var(--transition-fast);
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 1;
 }
 
 .close-modal:hover,
@@ -648,12 +667,20 @@ section h2::after {
 }
 
 .dot {
+    position: relative; /* Issue #4: needed for ::after tap area */
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.3);
     cursor: pointer;
     transition: background var(--transition-fast);
+}
+
+/* Issue #4: Expand tap area to ~44px without changing visual size */
+.dot::after {
+    content: '';
+    position: absolute;
+    inset: -16px;
 }
 
 .dot.active {
@@ -781,7 +808,13 @@ section h2::after {
 @media (max-width: 768px) {
     .reservation-bar {
         display: block;
-        bottom: 64px; /* Above mobile bottom nav */
+        /* Issue #5: Account for iPhone home indicator safe area */
+        bottom: calc(64px + env(safe-area-inset-bottom));
+    }
+
+    /* Issue #5: Ensure content isn't hidden under bottom nav + safe area */
+    body {
+        padding-bottom: calc(68px + env(safe-area-inset-bottom));
     }
 }
 
@@ -1023,7 +1056,8 @@ section h2::after {
 .fade-in-section {
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    /* Issue #7: Reduced from 1s to 0.4s for snappier feel */
+    transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     will-change: opacity, transform;
 }
 
@@ -1304,5 +1338,18 @@ section h2::after {
 
     .menu-cards-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Issue #2: Respect user's reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .fade-in-section {
+        opacity: 1;
+        transform: none;
     }
 }
