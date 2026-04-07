@@ -1244,7 +1244,7 @@ section h2::after {
 
     /* ── Body padding: top for navbar, bottom for tab bar ── */
     body {
-        padding-bottom: 68px;
+        padding-bottom: calc(68px + env(safe-area-inset-bottom));
     }
 
     /* ── Hero ── */
