@@ -1113,6 +1113,9 @@ section h2::after {
     margin-bottom: 2rem;
     font-size: 3rem;
     text-align: center;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.2;
 }
 
 .legal-content h1::after {
@@ -1288,6 +1291,11 @@ section h2::after {
     section h2 {
         font-size: 1.9rem;
         margin-bottom: 2rem;
+    }
+
+    /* ── Legal page h1 on mobile ── */
+    .legal-content h1 {
+        font-size: 2rem;
     }
 
     /* ── About / Contact stacked ── */
