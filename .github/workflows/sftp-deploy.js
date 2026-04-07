@@ -14,7 +14,7 @@ if (!HOST || !USER || !PASS) {
 const conn = new Client();
 
 const EXCLUDE_DIRS = ['.git', '.github', '.idea', 'node_modules'];
-const EXCLUDE_FILES = ['.gitignore', 'package.json', 'package-lock.json', 'test-sftp.js', 'sftp-deploy.js'];
+const EXCLUDE_FILES = ['.gitignore', 'package.json', 'package-lock.json', 'test-sftp.js', 'sftp-deploy.js', 'CLAUDE.md'];
 
 function shouldExclude(itemPath) {
   const name = path.basename(itemPath);
