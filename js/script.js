@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let heroIntervalId = null;
     let restartGallery = null;
     let restartHero = null;
+    let lastFocusedElement = null; // Store element with focus before modal opens
 
     // 1. Mobile Navigation Toggle
     const navToggle = document.getElementById('nav-toggle');
@@ -43,65 +44,66 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 2. Navbar and Reservation Bar Scroll Effect
+    // 2. Combined Scroll Handler (Navbar, Reservation Bar, Active Nav)
     const navbar = document.getElementById('navbar');
     const reservationBar = document.getElementById('reservationBar');
     const heroSection = document.getElementById('home');
-
-    window.addEventListener('scroll', () => {
-        const scrollPos = window.scrollY;
-        
-        // Navbar effect
-        if (scrollPos > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
-
-        // Reservation Bar effect (show after hero)
-        if (heroSection) {
-            const heroHeight = heroSection.offsetHeight;
-            if (scrollPos > heroHeight - 100) {
-                reservationBar.classList.add('visible');
-            } else {
-                reservationBar.classList.remove('visible');
-            }
-        }
-    }, { passive: true });
-
-    // 3. Highlight Nav Menu Item on Scroll (top nav + mobile bottom nav)
     const sections = document.querySelectorAll('section');
     const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
 
-    function updateActiveNav() {
-        let current = '';
+    let scrollTimeout;
+    function handleScroll() {
+        if (scrollTimeout) return;
+        scrollTimeout = setTimeout(() => {
+            scrollTimeout = null;
+            const scrollPos = window.scrollY;
 
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            if (pageYOffset >= (sectionTop - navbar.clientHeight - 80)) {
-                current = section.getAttribute('id');
+            // Navbar effect
+            if (scrollPos > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
             }
-        });
 
-        // Top nav links
-        navLinksItems.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href').includes(current)) {
-                link.classList.add('active');
+            // Reservation Bar effect (show after hero)
+            if (heroSection) {
+                const heroHeight = heroSection.offsetHeight;
+                if (scrollPos > heroHeight - 100) {
+                    reservationBar.classList.add('visible');
+                } else {
+                    reservationBar.classList.remove('visible');
+                }
             }
-        });
 
-        // Mobile bottom nav tabs
-        mobileNavItems.forEach(item => {
-            item.classList.remove('active');
-            if (item.getAttribute('data-section') === current) {
-                item.classList.add('active');
-            }
-        });
+            // Update active nav highlighting
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollPos >= (sectionTop - navbar.clientHeight - 80)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            // Top nav links
+            navLinksItems.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Mobile bottom nav tabs
+            mobileNavItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('data-section') === current) {
+                    item.classList.add('active');
+                }
+            });
+        }, 10);
     }
 
-    window.addEventListener('scroll', updateActiveNav, { passive: true });
-    updateActiveNav(); // run once on load
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // run once on load
 
     // Close modal when a mobile bottom nav tab is tapped
     mobileNavItems.forEach(item => {
@@ -129,7 +131,10 @@ document.addEventListener('DOMContentLoaded', () => {
             slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 
             // Update dots
-            dots.forEach(dot => dot.classList.remove('active'));
+            dots.forEach((dot, i) => {
+                dot.classList.remove('active');
+                dot.setAttribute('aria-selected', i === currentIndex ? 'true' : 'false');
+            });
             if (dots[currentIndex]) dots[currentIndex].classList.add('active');
 
             // Update active slide for caption animation
@@ -442,6 +447,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 modalMenuGrid.innerHTML = htmlContent;
 
+                // Store current focus before opening modal
+                lastFocusedElement = document.activeElement;
+
                 // Show Modal
                 modal.classList.add('show');
                 document.body.style.overflow = 'hidden'; // Prevent background scrolling
@@ -458,7 +466,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeMod = () => {
             modal.classList.remove('show');
             document.body.style.overflow = ''; // Restore scrolling
-            // Return focus to the card that opened it (optional but good)
+            // Return focus to the element that opened the modal
+            if (lastFocusedElement) lastFocusedElement.focus();
         };
 
         closeModal.addEventListener('click', closeMod);
