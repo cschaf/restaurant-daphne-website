@@ -1,0 +1,69 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+.idea/dictionaries/
+.idea/caches/
+.idea/libraries/
+.idea/inspectionProfiles/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/usage.statistics.xml
+.idea/flowTypes/
+.idea/asyncProfiler/
+.idea/jsLibraryMappings.xml
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+._*
+
+# Browser / dev tools
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor / IDE
+*.sublime-workspace
+*.sublime-project
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+*.code-search
+
+# Node (if ever introduced)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs (if ever introduced)
+dist/
+build/
+out/
+
+# Temp / cache
+*.tmp
+*.temp
+.cache/
+*.bak
+
+# Environment / secrets (if ever introduced)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Google Fonts cache
+google-fonts-cache/
