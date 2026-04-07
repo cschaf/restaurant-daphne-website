@@ -68,13 +68,11 @@ conn.on('ready', () => {
     try {
       uploadDirectory(sftp, '.', '/');
       console.log('\nDeploy complete!');
+      process.exit(0);
     } catch (e) {
       console.error('Upload error:', e);
-      conn.end();
       process.exit(1);
     }
-
-    conn.end();
   });
 });
 
