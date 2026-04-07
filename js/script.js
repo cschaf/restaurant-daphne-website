@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Issues #2 & #6: Shared reduced-motion check + interval handles for pause/resume
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let galleryIntervalId = null;
+    let heroIntervalId = null;
+    let restartGallery = null;
+    let restartHero = null;
+
     // 1. Mobile Navigation Toggle
     const navToggle = document.getElementById('nav-toggle');
     const navLinks = document.getElementById('nav-links');
@@ -7,10 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (navToggle) {
         navToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
+            const isOpen = navLinks.classList.contains('active');
+
+            // Issue #3: Keep aria-expanded in sync with menu state
+            navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
 
             // Toggle FontAwesome icon
             const icon = navToggle.querySelector('i');
-            if (navLinks.classList.contains('active')) {
+            if (isOpen) {
                 icon.classList.remove('fa-bars');
                 icon.classList.add('fa-times');
             } else {
@@ -175,18 +186,22 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Auto-Slide Optional
-        setInterval(() => {
-            currentIndex = (currentIndex + 1) % slidesCount;
-            updateSlider();
-        }, 5000);
+        // Auto-Slide Optional (Issues #2 + #6: skip if reduced motion; store ID for pause/resume)
+        if (!prefersReducedMotion) {
+            restartGallery = () => {
+                galleryIntervalId = setInterval(() => {
+                    currentIndex = (currentIndex + 1) % slidesCount;
+                    updateSlider();
+                }, 5000);
+            };
+            restartGallery();
+        }
     }
 
     // 4. Hero Slider Logic
     const heroSlides = document.querySelectorAll('.hero-slide');
     if (heroSlides.length > 0) {
         let currentHeroSlide = 0;
-        const heroInterval = 6000; // 6 seconds per slide
 
         function nextHeroSlide() {
             heroSlides[currentHeroSlide].classList.remove('active');
@@ -194,7 +209,13 @@ document.addEventListener('DOMContentLoaded', () => {
             heroSlides[currentHeroSlide].classList.add('active');
         }
 
-        setInterval(nextHeroSlide, heroInterval);
+        // Issues #2 + #6: skip if reduced motion; store ID for pause/resume
+        if (!prefersReducedMotion) {
+            restartHero = () => {
+                heroIntervalId = setInterval(nextHeroSlide, 6000);
+            };
+            restartHero();
+        }
     }
 
     // 5. Scroll to Top Button
@@ -520,4 +541,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial run and then every minute
     updateOpeningStatus();
     setInterval(updateOpeningStatus, 60000);
+
+    // Issue #3: Keyboard activation for menu category cards (Enter/Space)
+    document.querySelectorAll('.menu-cat-card').forEach(card => {
+        card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                card.click();
+            }
+        });
+    });
+
+    // Issue #6: Pause auto-slides when tab is hidden to save battery
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            clearInterval(galleryIntervalId);
+            clearInterval(heroIntervalId);
+        } else if (!prefersReducedMotion) {
+            if (restartGallery) restartGallery();
+            if (restartHero) restartHero();
+        }
+    });
 });

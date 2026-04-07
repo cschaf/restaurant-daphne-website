@@ -16,6 +16,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://restaurant-daphnebremen.de/">
     <meta property="og:image" content="https://restaurant-daphnebremen.de/assets/images/hero_bg.png">
+    <!-- Issue #6: Preload first hero background for faster LCP -->
+    <link rel="preload" href="assets/images/hero_bg_orig.jpg" as="image">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,9 +41,9 @@
                 <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo"
                     style="height:52px; width:auto;">
             </a>
-            <div class="nav-toggle" id="nav-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Navigation öffnen">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
             <ul class="nav-links" id="nav-links">
                 <li><a href="#home" class="active"><i class="fas fa-house"></i> Startseite</a></li>
                 <li><a href="#about"><i class="fas fa-info-circle"></i> Über Uns</a></li>
@@ -165,49 +167,49 @@
 
                 <div class="menu-cards-grid">
                     <!-- Card 1: Vorspeisen Kalt -->
-                    <div class="menu-cat-card" data-category="vorspeisen-kalt">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="vorspeisen-kalt">
                         <i class="fas fa-snowflake cat-icon"></i>
                         <h3>Kalte Vorspeisen</h3>
                         <p>Zaziki, Bruschetta und feine Oktopus-Salate.</p>
                     </div>
                     <!-- Card 2: Vorspeisen Warm -->
-                    <div class="menu-cat-card" data-category="vorspeisen-warm">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="vorspeisen-warm">
                         <i class="fas fa-hot-tub cat-icon"></i>
                         <h3>Warme Vorspeisen</h3>
                         <p>Dicke Bohnen, überbackener Feta und Antipasti.</p>
                     </div>
                     <!-- Card 3: Salate -->
-                    <div class="menu-cat-card" data-category="salate">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="salate">
                         <i class="fas fa-seedling cat-icon"></i>
                         <h3>Salate</h3>
                         <p>Knackige griechische Salate und Oktopus-Spezialitäten.</p>
                     </div>
                     <!-- Card 4: Ofengerichte -->
-                    <div class="menu-cat-card" data-category="ofengerichte">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="ofengerichte">
                         <i class="fas fa-mitten cat-icon"></i>
                         <h3>Ofengerichte</h3>
                         <p>Traditionelles Lamm und Gyros in Metaxasauce.</p>
                     </div>
                     <!-- Card 5: Grill -->
-                    <div class="menu-cat-card" data-category="grill">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="grill">
                         <i class="fas fa-fire-alt cat-icon"></i>
                         <h3>Vom Grill</h3>
                         <p>Bestes vom Fleisch: Gyros, Souvlaki und Platten.</p>
                     </div>
                     <!-- Card 6: Fisch -->
-                    <div class="menu-cat-card" data-category="fisch">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="fisch">
                         <i class="fas fa-fish cat-icon"></i>
                         <h3>Fischgerichte</h3>
                         <p>Lachs, Scampi und frische Calamari-Tuben.</p>
                     </div>
                     <!-- Card 7: Pizza -->
-                    <div class="menu-cat-card" data-category="pizza">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="pizza">
                         <i class="fas fa-pizza-slice cat-icon"></i>
                         <h3>Pizza</h3>
                         <p>Hausgemachte Pizza mit frischen Belägen.</p>
                     </div>
                     <!-- Card 8: Drinks & Desserts -->
-                    <div class="menu-cat-card" data-category="getraenke">
+                    <div class="menu-cat-card" role="button" tabindex="0" data-category="getraenke">
                         <i class="fas fa-wine-glass-alt cat-icon"></i>
                         <h3>Getränke & Dessert</h3>
                         <p>Griechische Weine, Biere und süße Baklava.</p>
@@ -218,9 +220,8 @@
                     style="text-align: center; margin-top: 3rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
                     <a href="#contact" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Tisch
                         reservieren</a>
-                    <a href="assets/menu.pdf" download="Speisekarte_Daphne.pdf" class="btn btn-secondary"
-                        style="color: var(--clr-gold); border-color: var(--clr-gold);">
-                        <i class="fas fa-file-pdf"></i> Speisekarte herunterladen
+                    <a href="assets/menu.pdf" download="Speisekarte_Daphne.pdf" class="btn btn-secondary btn-outline-gold">
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i> Speisekarte herunterladen
                     </a>
                 </div>
             </div>
@@ -234,26 +235,26 @@
                 <h2>Was unsere Gäste sagen</h2>
                 <div class="reviews-grid">
                     <div class="review-card">
-                        <div class="review-stars">
+                        <div class="review-stars" aria-hidden="true">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
                         <p class="review-text">"Ein wunderbar modernes und stilvolles griechisches Restaurant! Die
                             Gerichte sind raffiniert, optisch ansprechend und geschmacklich perfekt ausgewogen. Ein
                             absolutes Highlight für kulinarisch anspruchsvolle Genießer."</p>
-                        <div class="review-author"><i class="fa-brands fa-google" style="color: #4285F4; margin-right: 5px;"></i> Ein begeisterter Gast (Google)</div>
+                        <div class="review-author"><i class="fa-brands fa-google" aria-hidden="true" style="color: #4285F4; margin-right: 5px;"></i> Ein begeisterter Gast (Google)</div>
                     </div>
                     <div class="review-card">
-                        <div class="review-stars">
+                        <div class="review-stars" aria-hidden="true">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
                         <p class="review-text">"Wir waren auf Empfehlung im Daphne. Sehr schmackhaftes Essen. Kommen
                             gerne wieder !!!!! Der Service war ebenfalls sehr aufmerksam."</p>
-                        <div class="review-author"><i class="fa-brands fa-google" style="color: #4285F4; margin-right: 5px;"></i> Martin (Google)</div>
+                        <div class="review-author"><i class="fa-brands fa-google" aria-hidden="true" style="color: #4285F4; margin-right: 5px;"></i> Martin (Google)</div>
                     </div>
                     <div class="review-card">
-                        <div class="review-stars">
+                        <div class="review-stars" aria-hidden="true">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -329,6 +330,7 @@
 
                     <div class="map-container">
                         <iframe
+                            title="Karte: Restaurant Daphne, Bremen"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2398.2492193563456!2d8.895123915830206!3d53.07897007992764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b127ba4ba2d28f%3A0x64e320f666f5f9a6!2sRestaurant%20Daphne!5e0!3m2!1sde!2sde!4v1680000000000!5m2!1sde!2sde"
                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -341,7 +343,7 @@
     <!-- Menu Modal Overlay -->
     <div class="menu-modal" id="menuModal">
         <div class="menu-modal-content">
-            <span class="close-modal" id="closeModal">&times;</span>
+            <button class="close-modal" id="closeModal" aria-label="Menü schließen">&times;</button>
             <h2 id="modalTitle" style="color: var(--clr-gold); margin-bottom: 2rem;">Kategorie</h2>
             <div class="menu-grid" id="modalMenuGrid">
                 <!-- Dynamically populated menu items go here -->
