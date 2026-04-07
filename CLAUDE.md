@@ -112,3 +112,26 @@ Alle Design-Tokens sind als CSS Custom Properties am Anfang von `css/style.css` 
 ### Externe Abhängigkeiten (CDN, keine lokale Kopie)
 - Google Fonts: Playfair Display + Outfit
 - Font Awesome 6.4.0
+
+## Qualitätsregeln
+
+Diese Regeln wurden aus vergangenen Issues abgeleitet und müssen bei jeder Änderung eingehalten werden.
+
+### Accessibility (WCAG 2.1 AA)
+- **Focus-Visible**: `:focus-visible` ist global mit `outline: 2px solid var(--clr-gold)` definiert. Neue interaktive Elemente dürfen diesen Stil nicht überschreiben (`outline: none` ist verboten).
+- **prefers-reduced-motion**: Neue CSS-Animationen/Transitions müssen im `@media (prefers-reduced-motion: reduce)`-Block am Ende von `css/style.css` deaktiviert werden. Neue JS-Intervalle (Auto-Slides etc.) dürfen nur starten, wenn `!prefersReducedMotion`.
+- **Semantisches HTML**: Klickbare Elemente müssen `<button>` oder `<a>` sein — keine Click-Handler auf `<div>`/`<span>`. Ausnahme: Wenn ein `<div>` interaktiv sein muss, braucht es `role="button"` und `tabindex="0"` sowie einen `keydown`-Handler für Enter/Space.
+- **ARIA**: Dekorative Icons bekommen `aria-hidden="true"`. Buttons mit Toggle-Zustand brauchen `aria-expanded`. `<iframe>`-Elemente brauchen ein `title`-Attribut. Bilder in verlinkten Elementen brauchen beschreibendes `alt`.
+
+### Mobile / Touch
+- **Mindest-Tappfläche 44px**: Kleine visuelle Elemente (Dots, Icons) dürfen die Tappfläche per `::after { inset: -16px }` vergrößern, ohne das visuelle Design zu verändern.
+- **Safe Area (iPhone Notch)**: Elemente, die am unteren Rand fixiert sind (`position: fixed; bottom: ...`), müssen `env(safe-area-inset-bottom)` berücksichtigen: `bottom: calc(Xpx + env(safe-area-inset-bottom))`.
+
+### Performance
+- **Hero-Bild Preload**: Das erste sichtbare Hero-Hintergrundbild ist per `<link rel="preload" as="image">` vorgeladen. Wird das Bild gewechselt, muss auch der Preload-Link aktualisiert werden.
+- **Intervalle pausieren**: Auto-Slide-Intervalle laufen nicht im Hintergrund. Der `visibilitychange`-Listener in `js/script.js` pausiert und startet sie. Neue Intervalle müssen dort ebenfalls registriert werden.
+
+### Code-Qualität
+- **Keine Inline-Styles**: Farben, Abstände und andere Design-Werte gehören in CSS-Klassen oder CSS-Variablen — nicht als `style="..."`-Attribut im HTML.
+- **Button-Hierarchie**: Die primäre CTA ("Tisch reservieren") ist visuell dominanter als sekundäre Aktionen. Neue Buttons müssen dieser Hierarchie folgen (`.btn-primary` > `.btn-secondary` / `.btn-outline-gold`).
+- **Animationsdauer**: Scroll- und Erscheinen-Animationen liegen im Bereich 150–400ms. Neue Animationen nicht länger als `0.4s` setzen.
