@@ -13,18 +13,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Delete nested .git directories
-        run: find . -type d -name ".git" -exec rm -rf {} + 2>/dev/null || true
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install SSH2
+        run: npm install ssh2
 
       - name: Deploy to Strato via SFTP
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.STRATO_HOST }}
-          username: ${{ secrets.STRATO_USERNAME }}
-          password: ${{ secrets.STRATO_PASSWORD }}
-          port: 22
-          source: "./"
-          target: "/"
-          strip_components: 0
-          overwrite: true
-          debug: true
+        env:
+          STRATO_HOST: ${{ secrets.STRATO_HOST }}
+          STRATO_USERNAME: ${{ secrets.STRATO_USERNAME }}
+          STRATO_PASSWORD: ${{ secrets.STRATO_PASSWORD }}
+        run: node .github/workflows/sftp-deploy.js "$STRATO_HOST" "$STRATO_USERNAME" "$STRATO_PASSWORD"
