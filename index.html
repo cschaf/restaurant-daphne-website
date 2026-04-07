@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Restaurant DAPHNE in Bremen - Offen und sonnendurchflutet bei Tag, gemütlich bei Nacht. Authentische griechische und mediterrane Küche.">
+    <meta name="keywords"
+        content="Restaurant, Bremen, Griechisch, Mediterran, Daphne, Essen, Gyros, Souvlaki, Reservierung, Ouzo, Mezedes">
+    <meta name="author" content="Restaurant Daphne">
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Restaurant DAPHNE | Mediterrane & Griechische Küche">
+    <meta property="og:description"
+        content="Authentische mediterrane Momente im Herzen Bremens. Gyros, Souvlaki, frische Mezedes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://restaurant-daphnebremen.de/">
+    <meta property="og:image" content="https://restaurant-daphnebremen.de/assets/images/hero_bg.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Restaurant DAPHNE | Mediterrane & Griechische Küche in Bremen</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo"
+                    style="height:52px; width:auto;">
+            </a>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-house"></i> Startseite</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> Über Uns</a></li>
+                <li><a href="#menu"><i class="fas fa-utensils"></i> Speisekarte</a></li>
+                <li><a href="#gallery"><i class="fas fa-camera"></i> Impressionen</a></li>
+                <li><a href="#contact"><i class="fas fa-calendar-check"></i> Reservierung &amp; Anfahrt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content will go here -->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-slider" id="heroSlider">
+                <div class="hero-slide active" style="background-image: url('assets/images/hero_bg_orig.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('assets/images/gallery_orig_1.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('assets/images/gallery_orig_3.jpeg');"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Willkommen im<br><span>Restaurant Daphne</span></h1>
+                <p class="hero-subtitle">Seit Jahren Bremens Lieblings-Grieche — jetzt Tisch sichern.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Tisch reservieren</a>
+                    <a href="#menu" class="btn btn-secondary">Speisekarte ansehen</a>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Specials Banner -->
+        <div class="specials-banner">
+            <div class="container">
+            </div>
+        </div>
+
+
+        <!-- About Section -->
+        <section id="about" class="about-section fade-in-section">
+            <div class="container">
+                <h2>Über Uns</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="assets/images/about_daphne.jpg" alt="Restaurant Daphne - Gemütliche Atmosphäre"
+                            loading="lazy">
+                    </div>
+                    <div class="about-content">
+                        <h3>Tradition trifft auf Moderne</h3>
+                        <p>Offen und sonnendurchflutet bei Tag, gemütlich bei Nacht, ist das Restaurant Daphne ein Ort,
+                            an dem Freunde bei gutem Essen und Trinken gern zusammenkommen.</p>
+                        <p>Ob nun bei ein wenig Privatsphäre mit einer Gruppe von Freunden, oder in den Sommermonaten
+                            auf unserer Terrasse; Jeder unserer Gäste ist herzlich willkommen! Unsere Speisen werden mit
+                            viel Liebe und Sorgfalt täglich frisch zubereitet. Wir legen großen Wert auf Frische und
+                            haben einen hohen Qualitätsanspruch an die verwendeten Produkte.</p>
+                        <a href="#menu" class="btn btn-primary" style="margin-top: 1rem;">Unsere Spezialitäten
+                            entdecken</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="greek-divider"></div>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="container fade-in-section">
+                <h2>Impressionen</h2>
+                <div class="slider-container">
+                    <button class="slider-btn prev" id="sliderPrev" aria-label="Vorheriges Bild">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider" id="slider">
+                        <div class="slide">
+                            <img src="assets/images/gallery_orig_1.jpg" alt="Restaurant Daphne Impressionen"
+                                loading="lazy">
+                            <div class="slide-caption">Herzlich willkommen im Restaurant Daphne</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/gallery_orig_2.jpg" alt="Mediterrane Spezialitäten" loading="lazy">
+                            <div class="slide-caption">Knuspriges Gyros mit Pommes</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/gallery_orig_3.jpeg" alt="Griechische Küche" loading="lazy">
+                            <div class="slide-caption">Ein geselliger Abend im Daphne</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/gallery_orig_4.jpg" alt="Gemütliche Atmosphäre" loading="lazy">
+                            <div class="slide-caption">Mediterrane Spezialitäten-Platten</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/gallery_orig_5.jpg" alt="Griechische Spezialitäten vom Grill"
+                                loading="lazy">
+                            <div class="slide-caption">Spezialitäten frisch vom Grill</div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/gallery_orig_6.jpg" alt="Restaurant Daphne Bremen" loading="lazy">
+                            <div class="slide-caption">Hausgemachte griechische Desserts</div>
+                        </div>
+                    </div>
+                    <button class="slider-btn next" id="sliderNext" aria-label="Nächstes Bild">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <!-- Slider Dots -->
+                    <div class="slider-dots" id="sliderDots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                        <span class="dot" data-index="3"></span>
+                        <span class="dot" data-index="4"></span>
+                        <span class="dot" data-index="5"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="greek-divider"></div>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section bg-light">
+            <div class="container fade-in-section">
+                <h2>Unsere Speisekarte</h2>
+
+                <div class="menu-cards-grid">
+                    <!-- Card 1: Vorspeisen Kalt -->
+                    <div class="menu-cat-card" data-category="vorspeisen-kalt">
+                        <i class="fas fa-snowflake cat-icon"></i>
+                        <h3>Kalte Vorspeisen</h3>
+                        <p>Zaziki, Bruschetta und feine Oktopus-Salate.</p>
+                    </div>
+                    <!-- Card 2: Vorspeisen Warm -->
+                    <div class="menu-cat-card" data-category="vorspeisen-warm">
+                        <i class="fas fa-hot-tub cat-icon"></i>
+                        <h3>Warme Vorspeisen</h3>
+                        <p>Dicke Bohnen, überbackener Feta und Antipasti.</p>
+                    </div>
+                    <!-- Card 3: Salate -->
+                    <div class="menu-cat-card" data-category="salate">
+                        <i class="fas fa-seedling cat-icon"></i>
+                        <h3>Salate</h3>
+                        <p>Knackige griechische Salate und Oktopus-Spezialitäten.</p>
+                    </div>
+                    <!-- Card 4: Ofengerichte -->
+                    <div class="menu-cat-card" data-category="ofengerichte">
+                        <i class="fas fa-mitten cat-icon"></i>
+                        <h3>Ofengerichte</h3>
+                        <p>Traditionelles Lamm und Gyros in Metaxasauce.</p>
+                    </div>
+                    <!-- Card 5: Grill -->
+                    <div class="menu-cat-card" data-category="grill">
+                        <i class="fas fa-fire-alt cat-icon"></i>
+                        <h3>Vom Grill</h3>
+                        <p>Bestes vom Fleisch: Gyros, Souvlaki und Platten.</p>
+                    </div>
+                    <!-- Card 6: Fisch -->
+                    <div class="menu-cat-card" data-category="fisch">
+                        <i class="fas fa-fish cat-icon"></i>
+                        <h3>Fischgerichte</h3>
+                        <p>Lachs, Scampi und frische Calamari-Tuben.</p>
+                    </div>
+                    <!-- Card 7: Pizza -->
+                    <div class="menu-cat-card" data-category="pizza">
+                        <i class="fas fa-pizza-slice cat-icon"></i>
+                        <h3>Pizza</h3>
+                        <p>Hausgemachte Pizza mit frischen Belägen.</p>
+                    </div>
+                    <!-- Card 8: Drinks & Desserts -->
+                    <div class="menu-cat-card" data-category="getraenke">
+                        <i class="fas fa-wine-glass-alt cat-icon"></i>
+                        <h3>Getränke & Dessert</h3>
+                        <p>Griechische Weine, Biere und süße Baklava.</p>
+                    </div>
+                </div>
+
+                <div
+                    style="text-align: center; margin-top: 3rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Tisch
+                        reservieren</a>
+                    <a href="assets/menu.pdf" download="Speisekarte_Daphne.pdf" class="btn btn-secondary"
+                        style="color: var(--clr-gold); border-color: var(--clr-gold);">
+                        <i class="fas fa-file-pdf"></i> Speisekarte herunterladen
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="greek-divider"></div>
+
+        <!-- Testimonials/Reviews Section -->
+        <section id="reviews" class="reviews-section">
+            <div class="container fade-in-section">
+                <h2>Was unsere Gäste sagen</h2>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Ein wunderbar modernes und stilvolles griechisches Restaurant! Die
+                            Gerichte sind raffiniert, optisch ansprechend und geschmacklich perfekt ausgewogen. Ein
+                            absolutes Highlight für kulinarisch anspruchsvolle Genießer."</p>
+                        <div class="review-author"><i class="fa-brands fa-google" style="color: #4285F4; margin-right: 5px;"></i> Ein begeisterter Gast (Google)</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Wir waren auf Empfehlung im Daphne. Sehr schmackhaftes Essen. Kommen
+                            gerne wieder !!!!! Der Service war ebenfalls sehr aufmerksam."</p>
+                        <div class="review-author"><i class="fa-brands fa-google" style="color: #4285F4; margin-right: 5px;"></i> Martin (Google)</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Authentische Küche auf höchstem Niveau. Sowohl das Gyros als auch die
+                            Fischgerichte sind perfekt zubereitet. Absolut empfehlenswert für jeden, der griechisches
+                            Essen liebt."</p>
+                        <div class="review-author"><i class="fa-brands fa-tripadvisor" style="color: #34E0A1; margin-right: 5px; display: none;"></i><svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: #34E0A1; margin-right: 5px; vertical-align: middle;" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-4.5-9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm9 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-4.5 5c-1.657 0-3-1.343-3-3h6c0 1.657-1.343 3-3 3z"/></svg> Lina M. (TripAdvisor)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="greek-divider"></div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container fade-in-section">
+                <h2>Reservierung & Anfahrt</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Kontaktieren Sie uns</h3>
+                        <p style="margin-bottom: 2rem; color: var(--clr-text-light);">Gerne reservieren wir Ihnen vorab
+                            einen Tisch für den nächsten Besuch im Restaurant Daphne - wir freuen uns auf Sie! Bitte
+                            haben Sie Verständnis dafür, dass wir Reservierungen nur telefonisch annehmen.</p>
+
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="info-text">
+                                <strong>Telefon (Reservierungen)</strong>
+                                <p><a href="tel:+4942117507002">0421 175 070 02</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info-text">
+                                <strong>Email (Allgemeine Anfragen)</strong>
+                                <p><a href="mailto:riadodaphne@gmail.com">riadodaphne@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-text">
+                                <strong>Adresse</strong>
+                                <p>Restaurant DAPHNE<br>Eislebener Str. 70<br>28329 Bremen</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div class="info-text">
+                                <strong>Öffnungszeiten</strong>
+                                <div id="opening-status" class="opening-status">
+                                    <span class="status-dot"></span>
+                                    <span class="status-text">Wird geladen...</span>
+                                </div>
+                                <div class="opening-hours-list" id="opening-hours-list">
+                                    <p data-day="1">Mo - So: 17:30 - 23:00 Uhr</p>
+                                    <p data-day="2" style="display:none;"></p> <!-- Spacer for JS logic -->
+                                    <p data-day="3" style="display:none;"></p>
+                                    <p data-day="4" style="display:none;"></p>
+                                    <p data-day="5" style="display:none;"></p>
+                                    <p data-day="6" style="display:none;"></p>
+                                    <p data-day="0">sowie Sonn- und Feiertage: 12:00 - 14:30 Uhr</p>
+                                </div>
+                                <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--clr-text-light);">Küche:
+                                    bis 22:00 Uhr</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2398.2492193563456!2d8.895123915830206!3d53.07897007992764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b127ba4ba2d28f%3A0x64e320f666f5f9a6!2sRestaurant%20Daphne!5e0!3m2!1sde!2sde!4v1680000000000!5m2!1sde!2sde"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Menu Modal Overlay -->
+    <div class="menu-modal" id="menuModal">
+        <div class="menu-modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2 id="modalTitle" style="color: var(--clr-gold); margin-bottom: 2rem;">Kategorie</h2>
+            <div class="menu-grid" id="modalMenuGrid">
+                <!-- Dynamically populated menu items go here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo"
+                        style="height:60px; width:auto; filter: brightness(0) saturate(100%) invert(74%) sepia(58%) saturate(543%) hue-rotate(6deg) brightness(101%);">
+                </div>
+                <p>Authentische mediterrane Momente im Herzen Bremens.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/p/Restaurant-Daphne-100063892156850/" target="_blank"
+                        rel="noopener noreferrer" class="social-link" aria-label="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.tripadvisor.de/Restaurant_Review-g187325-d11717537-Reviews-Daphne-Bremen.html"
+                        target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TripAdvisor"><svg viewBox="0 0 24 24" style="width: 20px; height: 20px; fill: currentColor;" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-4.5-9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm9 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-4.5 5c-1.657 0-3-1.343-3-3h6c0 1.657-1.343 3-3 3z"/></svg></a>
+                    <a href="https://www.google.com/search?q=Restaurant+Daphne+Bremen+Rezensionen" target="_blank"
+                        rel="noopener noreferrer" class="social-link" aria-label="Google Reviews"><i
+                            class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Restaurant DAPHNE Bremen. Alle Rechte vorbehalten. | <a href="impressum.html"
+                        style="text-decoration: underline;">Impressum</a> | <a href="datenschutz.html"
+                        style="text-decoration: underline;">Datenschutz</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" aria-label="Zurück nach oben" title="Zurück nach oben">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Sticky Reservation Bar -->
+    <div id="reservationBar" class="reservation-bar">
+        <a href="tel:+4942117507002">
+            <i class="fas fa-phone-alt"></i> Reservieren: 0421 175 070 02
+        </a>
+    </div>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Mobile Navigation">
+        <a href="#home" class="mobile-nav-item active" data-section="home">
+            <i class="fas fa-house"></i>
+            <span>Start</span>
+        </a>
+        <a href="#about" class="mobile-nav-item" data-section="about">
+            <i class="fas fa-info-circle"></i>
+            <span>Über Uns</span>
+        </a>
+        <a href="#menu" class="mobile-nav-item" data-section="menu">
+            <i class="fas fa-utensils"></i>
+            <span>Speisekarte</span>
+        </a>
+        <a href="#gallery" class="mobile-nav-item" data-section="gallery">
+            <i class="fas fa-camera"></i>
+            <span>Galerie</span>
+        </a>
+        <a href="#contact" class="mobile-nav-item" data-section="contact">
+            <i class="fas fa-calendar-check"></i>
+            <span>Reservierung</span>
+        </a>
+    </nav>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

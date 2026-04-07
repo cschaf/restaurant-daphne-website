@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Restaurant DAPHNE</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<base href="https://restaurant-daphnebremen.de/" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div style="height: 3.25em;"><a href="https://restaurant-daphnebremen.de/"><img style="height: 3.25em;" src="images/daphne-logo.png"></a></div>
+					<nav id="nav">
+						<ul><li class="first active"><a href="https://restaurant-daphnebremen.de/" title="Restaurant DAPHNE" >Restaurant DAPHNE</a></li>
+<li><a href="speisekarte.html" title="Speisekarte" >Speisekarte</a></li>
+<li><a href="vernastaltungen.html" title="Veranstaltungen" >Veranstaltungen</a></li>
+<li><a href="unsere-events/" title="Unsere Events" >Unsere Events</a></li>
+<li><a href="impressionen.html" title="Impressionen" >Impressionen</a></li>
+<li class="last"><a href="reservierung-und-anfahrt.html" title="Reservierung & Anfahrt" >Reservierung & Anfahrt</a></li>
+</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+<section id="banner">
+	<div class="inner">
+		<h2>Restaurant DAPHNE</h2>
+		<p>Mediterranes Restaurant</p>
+	</div>
+</section>
+
+<!-- Two -->
+<section id="two" class="wrapper style2">
+	<div class="container">
+		<div class="row">
+			<header class="major">
+				<h2>Wilkommen im Restaurant Daphne</h2>
+			</header>
+			<p>
+				Offen und sonnendurchflutet bei Tag, gemütlich bei Nacht, ist das Restaurant Daphne ein Ort,
+				an dem Freunde bei gutem Essen und Trinken gern zusammenkommen.
+				Ob nun bei ein wenig Privatsphäre mit einer Gruppe von bis zu 10 Freunden unter sich,
+				bei einer guten Zigarette im Raucherseparee, oder in den Sommermonaten
+				auf unserer Terrasse; Jeder unserer Gäste ist herzlich willkommen!
+				Gerne richten wir auch größere Feiern für sie aus. Fragen sie uns!
+			</p>
+			<p>
+				Unsere Speisen werden mit viel Liebe und Sorgfalt täglich frisch zubereitet.
+				Wir legen großen Wert auf Frische und haben einen hohen Qualitätsanspruch
+				an die verwendeten Produkte.
+			</p>
+
+			<iframe width="100%" height="500"
+				src="https://www.youtube.com/embed/LXy2-NbMcUQ"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen>
+			</iframe>
+		</div>
+	</div>
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style3">
+	<div class="container">
+		<div class="row">
+
+			<div class="6u 12u(narrow)">
+				<section class="image-feature">
+					<a href="vernastaltungen.html">
+						<header>
+							<h3>Veranstaltungen</h3>
+						</header>
+						<span class="image fit"><img src="images/37.jpeg" alt="" /></span>
+						<footer>
+							<p>Wir unterstützen Sie gerne bei der Planung Ihrer Veranstaltung bei uns im Restaurant.</p>
+						</footer>
+					</a>
+				</section>
+			</div>
+
+			<div class="6u 12u(narrow)">
+				<section class="image-feature">
+					<a href="impressionen.html">
+						<header>
+							<h3>Impressionen</h3>
+						</header>
+						<span class="image fit"><img src="images/16.jpg" alt="" /></span>
+						<footer>
+							<p>Entdecken Sie unser Restaurant: Wir haben die schönsten Momente der letzten Jahre festgehalten.</p>
+						</footer>
+					</a>
+				</section>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="6u 12u(narrow)">
+				<section class="image-feature">
+					<a href="reservierung-und-anfahrt.html">
+						<header>
+							<h3>Reservierungen & Anfahrt</h3>
+						</header>
+						<span class="image fit"><img src="images/15.jpeg" alt="" /></span>
+						<footer>
+							<p>Sie möchten einen Tisch für Ihren nächsten Besuch reservieren?</p>
+						</footer>
+					</a>
+				</section>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+			<style>
+    .footer-div{float: left;text-align: left;padding: 0 3rem 2rem 3rem;font-size: 1.2em;}
+    .footer-div b{color:#AE977A !important;font-size: 1.2em;}
+    .footer-div p{color:#AE977A !important;line-height: 2.5em;font-size: 1em;}
+    .footer-div-wrapper{margin: 0 3em;}
+    
+    @media only screen and (max-width: 1200px) {
+       .\31 2u\28narrow\29, .\31 2u\24\28narrow\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+           
+       } 
+    .footer-div p{line-height: 2em;}
+    .footer-div{float: left;text-align: left;padding: 0;}
+    }
+</style>
+
+
+				<footer id="footer">
+					<!--<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>-->
+					<div class="footer-div-wrapper row">
+					<div class="footer-div 3u 12u(narrow)">
+					    <p>
+					      <b>Restaurant DAPHNE</b><br>
+					      Griechisches Restaurant<br>
+					      Eislebener Str. 70<br>
+					      28329 Bremen<br>
+					      Telefon: <a href="tel:+4942117507002">0421 175 070 02</a>
+					      <!--E-Mail: <a href="mailto:test@test.de">welche email?</a>-->
+					    </p>
+					</div>
+					<div class="footer-div 3u 12u(narrow)">
+					    <p>
+					      <b>Öffnungszeiten</b><br>
+					      Montag - Sonntag:<br>
+					      17:30 - 23:00<br>
+					      Küche von 17.30 bis 22 Uhr<br>
+					      Sonntag und Feiertage:<br>
+					      12:00 - 14:30<br>
+
+					    </p>
+					</div>
+					<div class="footer-div 6u 12u(narrow)">
+					      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2396.8165164083957!2d8.869323116014119!3d53.07756930250997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1278176f86bb1%3A0x7b432d25145a9f8c!2sDaphne!5e0!3m2!1sde!2sde!4v1674909387575!5m2!1sde!2sde" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					</div>
+					<div class="copyright">
+					    <a href="reservierung-und-anfahrt.html">Anfahrt</a> | 
+					    <a href="datenschutz.html">Datenschutz</a> | 
+					    <a href="impressum.html">Impressum</a> <!--| 
+						&copy; seit 2023 Riad Ramadan-->
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
