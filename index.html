@@ -33,13 +33,15 @@
 </head>
 
 <body>
+    <!-- Skip to main content for keyboard users -->
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#" class="logo">
                 <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo"
-                    style="height:52px; width:auto;">
+                    height="52" width="156" loading="eager">
             </a>
             <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Navigation öffnen">
                 <i class="fas fa-bars" aria-hidden="true"></i>
@@ -55,7 +57,7 @@
     </nav>
 
     <!-- Main Content will go here -->
-    <main>
+    <main id="main-content">
         <section id="home" class="hero">
             <div class="hero-slider" id="heroSlider">
                 <div class="hero-slide active" style="background-image: url('assets/images/hero_bg_orig.jpg');"></div>
@@ -87,7 +89,7 @@
                 <div class="about-grid">
                     <div class="about-image">
                         <img src="assets/images/about_daphne.jpg" alt="Restaurant Daphne - Gemütliche Atmosphäre"
-                            loading="lazy">
+                            loading="lazy" width="600" height="400">
                     </div>
                     <div class="about-content">
                         <h3>Tradition trifft auf Moderne</h3>
@@ -117,28 +119,28 @@
                     <div class="slider" id="slider">
                         <div class="slide">
                             <img src="assets/images/gallery_orig_1.jpg" alt="Restaurant Daphne Impressionen"
-                                loading="lazy">
+                                loading="lazy" width="800" height="450">
                             <div class="slide-caption">Herzlich willkommen im Restaurant Daphne</div>
                         </div>
                         <div class="slide">
-                            <img src="assets/images/gallery_orig_2.jpg" alt="Mediterrane Spezialitäten" loading="lazy">
+                            <img src="assets/images/gallery_orig_2.jpg" alt="Mediterrane Spezialitäten" loading="lazy" width="800" height="450">
                             <div class="slide-caption">Knuspriges Gyros mit Pommes</div>
                         </div>
                         <div class="slide">
-                            <img src="assets/images/gallery_orig_3.jpeg" alt="Griechische Küche" loading="lazy">
+                            <img src="assets/images/gallery_orig_3.jpeg" alt="Griechische Küche" loading="lazy" width="800" height="450">
                             <div class="slide-caption">Ein geselliger Abend im Daphne</div>
                         </div>
                         <div class="slide">
-                            <img src="assets/images/gallery_orig_4.jpg" alt="Gemütliche Atmosphäre" loading="lazy">
+                            <img src="assets/images/gallery_orig_4.jpg" alt="Gemütliche Atmosphäre" loading="lazy" width="800" height="450">
                             <div class="slide-caption">Mediterrane Spezialitäten-Platten</div>
                         </div>
                         <div class="slide">
                             <img src="assets/images/gallery_orig_5.jpg" alt="Griechische Spezialitäten vom Grill"
-                                loading="lazy">
+                                loading="lazy" width="800" height="450">
                             <div class="slide-caption">Spezialitäten frisch vom Grill</div>
                         </div>
                         <div class="slide">
-                            <img src="assets/images/gallery_orig_6.jpg" alt="Restaurant Daphne Bremen" loading="lazy">
+                            <img src="assets/images/gallery_orig_6.jpg" alt="Restaurant Daphne Bremen" loading="lazy" width="800" height="450">
                             <div class="slide-caption">Hausgemachte griechische Desserts</div>
                         </div>
                     </div>
@@ -146,13 +148,13 @@
                         <i class="fas fa-chevron-right"></i>
                     </button>
                     <!-- Slider Dots -->
-                    <div class="slider-dots" id="sliderDots">
-                        <span class="dot active" data-index="0"></span>
-                        <span class="dot" data-index="1"></span>
-                        <span class="dot" data-index="2"></span>
-                        <span class="dot" data-index="3"></span>
-                        <span class="dot" data-index="4"></span>
-                        <span class="dot" data-index="5"></span>
+                    <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Bildernavigation">
+                        <button class="dot active" data-index="0" role="tab" aria-selected="true" aria-label="Bild 1 von 6"></button>
+                        <button class="dot" data-index="1" role="tab" aria-selected="false" aria-label="Bild 2 von 6"></button>
+                        <button class="dot" data-index="2" role="tab" aria-selected="false" aria-label="Bild 3 von 6"></button>
+                        <button class="dot" data-index="3" role="tab" aria-selected="false" aria-label="Bild 4 von 6"></button>
+                        <button class="dot" data-index="4" role="tab" aria-selected="false" aria-label="Bild 5 von 6"></button>
+                        <button class="dot" data-index="5" role="tab" aria-selected="false" aria-label="Bild 6 von 6"></button>
                     </div>
                 </div>
             </div>
@@ -235,9 +237,9 @@
                 <h2>Was unsere Gäste sagen</h2>
                 <div class="reviews-grid">
                     <div class="review-card">
-                        <div class="review-stars" aria-hidden="true">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="review-stars" role="img" aria-label="5 von 5 Sternen">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i
+                                class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <p class="review-text">"Ein wunderbar modernes und stilvolles griechisches Restaurant! Die
                             Gerichte sind raffiniert, optisch ansprechend und geschmacklich perfekt ausgewogen. Ein
@@ -245,18 +247,18 @@
                         <div class="review-author"><i class="fa-brands fa-google" aria-hidden="true" style="color: #4285F4; margin-right: 5px;"></i> Ein begeisterter Gast (Google)</div>
                     </div>
                     <div class="review-card">
-                        <div class="review-stars" aria-hidden="true">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="review-stars" role="img" aria-label="5 von 5 Sternen">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i
+                                class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <p class="review-text">"Wir waren auf Empfehlung im Daphne. Sehr schmackhaftes Essen. Kommen
                             gerne wieder !!!!! Der Service war ebenfalls sehr aufmerksam."</p>
                         <div class="review-author"><i class="fa-brands fa-google" aria-hidden="true" style="color: #4285F4; margin-right: 5px;"></i> Martin (Google)</div>
                     </div>
                     <div class="review-card">
-                        <div class="review-stars" aria-hidden="true">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="review-stars" role="img" aria-label="5 von 5 Sternen">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i
+                                class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <p class="review-text">"Authentische Küche auf höchstem Niveau. Sowohl das Gyros als auch die
                             Fischgerichte sind perfekt zubereitet. Absolut empfehlenswert für jeden, der griechisches
@@ -309,7 +311,7 @@
                             <i class="fas fa-clock"></i>
                             <div class="info-text">
                                 <strong>Öffnungszeiten</strong>
-                                <div id="opening-status" class="opening-status">
+                                <div id="opening-status" class="opening-status" aria-live="polite" aria-atomic="true">
                                     <span class="status-dot"></span>
                                     <span class="status-text">Wird geladen...</span>
                                 </div>
@@ -357,7 +359,8 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo"
-                        style="height:60px; width:auto; filter: brightness(0) saturate(100%) invert(74%) sepia(58%) saturate(543%) hue-rotate(6deg) brightness(101%);">
+                        height="60" width="180" loading="lazy"
+                        style="filter: brightness(0) saturate(100%) invert(74%) sepia(58%) saturate(543%) hue-rotate(6deg) brightness(101%);">
                 </div>
                 <p>Authentische mediterrane Momente im Herzen Bremens.</p>
                 <div class="social-links">
