@@ -47,9 +47,57 @@ Hours are hardcoded in `updateOpeningStatus()` in `script.js`:
 
 If hours change, update both the JS time comparisons **and** the visible text in the `.opening-hours-list` in `index.html`.
 
-### CSS Variables
-All design tokens (colors, fonts, shadows, transitions) are defined as CSS custom properties at the top of `style.css`. Primary palette: `--clr-azure` (Greek sea blue), `--clr-gold` (accent gold), dark backgrounds.
+## Design System
 
-### External Dependencies (CDN, no local copy)
+Alle Design-Tokens sind als CSS Custom Properties am Anfang von `css/style.css` definiert. **Immer diese Variablen verwenden — niemals Hex-Werte direkt im HTML oder CSS hardcoden.**
+
+### Farben
+
+| Variable | Wert | Verwendung |
+|---|---|---|
+| `--clr-azure` | `#004b87` | Primärfarbe (Griechisches Meeresblau), Buttons, Akzente |
+| `--clr-azure-light` | `#0066b8` | Hover-Zustände auf blauen Elementen |
+| `--clr-gold` | `#D4AF37` | Zweite Akzentfarbe, Überschriften-Highlights, Icons |
+| `--clr-gold-light` | `#f5d76e` | Hover-Zustände auf goldenen Elementen |
+| `--clr-white` | `#ffffff` | Reines Weiß |
+| `--clr-bg-dark` | `#0f172a` | Haupt-Sektionshintergrund (dunkles Blauschwarz) |
+| `--clr-bg-inner` | `#111111` | Hintergrund für Karten und Container-Boxen |
+| `--clr-text-main` | `#f8fafc` | Primärer Fließtext (hell auf dunklem Hintergrund) |
+| `--clr-text-light` | `#94a3b8` | Sekundärer Text, Beschreibungen, Hinweise |
+
+### Typografie
+
+| Variable | Wert | Verwendung |
+|---|---|---|
+| `--font-heading` | `'Playfair Display', serif` | Alle Überschriften (`h1`–`h6`) |
+| `--font-body` | `'Outfit', sans-serif` | Fließtext, Navigation, Buttons, Labels |
+
+- Überschriften: `font-weight: 600`, `line-height: 1.2`
+- Fließtext: `font-size: 16px` (Basis), `line-height: 1.6`
+
+### Layout
+
+| Variable | Wert |
+|---|---|
+| `--max-width` | `1200px` (maximale Container-Breite) |
+| `--header-height` | `80px` |
+
+### Schatten
+
+| Variable | Wert |
+|---|---|
+| `--shadow-sm` | `0 2px 4px rgba(0,0,0,0.05)` |
+| `--shadow-md` | `0 4px 6px rgba(0,0,0,0.07)` |
+| `--shadow-lg` | `0 10px 15px rgba(0,0,0,0.1)` |
+
+### Transitions
+
+| Variable | Wert |
+|---|---|
+| `--transition-fast` | `0.2s ease` |
+| `--transition-norm` | `0.3s ease` |
+| `--transition-slow` | `0.5s ease` |
+
+### Externe Abhängigkeiten (CDN, keine lokale Kopie)
 - Google Fonts: Playfair Display + Outfit
 - Font Awesome 6.4.0
