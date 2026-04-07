@@ -1099,7 +1099,98 @@ section h2::after {
     }
 }
 
-/* Print Styles */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LEGAL PAGES
+   Shared styles for datenschutz.html and impressum.html
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.legal-content {
+    padding: 120px 0 60px;
+    min-height: 70vh;
+}
+
+.legal-content h1 {
+    color: var(--clr-gold);
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.legal-content h1::after {
+    display: none; /* Override section h2::after for legal page h1 */
+}
+
+.legal-box {
+    background: rgba(30, 30, 30, 0.6);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    border-radius: 16px;
+    padding: 3rem;
+    backdrop-filter: blur(5px);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.legal-box h2 {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: var(--clr-gold-light);
+}
+
+.legal-box h2::after {
+    display: none; /* Override section h2 underline for legal boxes */
+}
+
+.legal-box p,
+.legal-box ul,
+.legal-box li {
+    margin-bottom: 1rem;
+    color: var(--clr-text-light);
+}
+
+.legal-box ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+.legal-box strong {
+    color: var(--clr-text-main);
+}
+
+.legal-box a {
+    color: var(--clr-gold);
+}
+
+.legal-box a:hover {
+    color: var(--clr-gold-light);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    color: var(--clr-gold);
+    text-decoration: underline;
+}
+
+.back-link:hover {
+    color: var(--clr-gold-light);
+}
+
+/* Footer logo filter (replaces inline style on img) */
+.footer-logo-img {
+    height: 60px;
+    width: auto;
+    filter: brightness(0) saturate(100%) invert(74%) sepia(58%) saturate(543%) hue-rotate(6deg) brightness(101%);
+}
+
+/* Footer legal page links */
+.footer-legal-link {
+    text-decoration: underline;
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   PRINT STYLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 @media print {
 
     .navbar,

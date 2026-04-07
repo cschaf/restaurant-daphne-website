@@ -18,69 +18,20 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>Datenschutz | Restaurant DAPHNE Bremen</title>
-    <style>
-        .legal-content {
-            padding: 120px 0 60px;
-            min-height: 70vh;
-        }
-        .legal-content h1 {
-            color: var(--clr-gold);
-            margin-bottom: 2rem;
-            font-size: 3rem;
-            text-align: center;
-        }
-        .legal-box {
-            background: rgba(30, 30, 30, 0.6);
-            border: 1px solid rgba(212, 175, 55, 0.15);
-            border-radius: 16px;
-            padding: 3rem;
-            backdrop-filter: blur(5px);
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        .legal-box h2 {
-            text-align: left;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
-            color: var(--clr-gold-light);
-        }
-        .legal-box h2::after {
-            left: 0;
-            transform: none;
-        }
-        .legal-box p, .legal-box ul, .legal-box li {
-            margin-bottom: 1rem;
-            color: var(--clr-text-light);
-        }
-        .legal-box strong {
-            color: var(--clr-text-main);
-        }
-        .back-link {
-            display: inline-block;
-            margin-top: 2rem;
-            color: var(--clr-gold);
-            text-decoration: underline;
-        }
-        .legal-box ul {
-            padding-left: 1.5rem;
-            list-style-type: disc;
-        }
-    </style>
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar scrolled" id="navbar">
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
                 <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo"
-                    style="height:52px; width:auto;">
+                    height="52" width="156" loading="eager">
             </a>
-            <div class="nav-toggle" id="nav-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Navigation öffnen">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
             <ul class="nav-links" id="nav-links">
                 <li><a href="index.html#home"><i class="fas fa-house"></i> Startseite</a></li>
                 <li><a href="index.html#about"><i class="fas fa-info-circle"></i> Über Uns</a></li>
@@ -128,8 +79,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo" 
-                         style="height:60px; width:auto; filter: brightness(0) saturate(100%) invert(74%) sepia(58%) saturate(543%) hue-rotate(6deg) brightness(101%);">
+                    <img src="assets/images/daphne_logo_orig.png" alt="Restaurant Daphne Logo"
+                         class="footer-logo-img">
                 </div>
                 <p>Authentische mediterrane Momente im Herzen Bremens.</p>
                 <div class="social-links">
@@ -142,12 +93,34 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Restaurant DAPHNE Bremen. Alle Rechte vorbehalten. | <a href="impressum.html"
-                        style="text-decoration: underline;">Impressum</a> | <a href="datenschutz.html"
-                        style="text-decoration: underline;">Datenschutz</a></p>
+                <p>&copy; 2026 Restaurant DAPHNE Bremen. Alle Rechte vorbehalten. | <a href="impressum.html" class="footer-legal-link">Impressum</a> | <a href="datenschutz.html" class="footer-legal-link">Datenschutz</a></p>
             </div>
         </div>
     </footer>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Mobile Navigation">
+        <a href="index.html#home" class="mobile-nav-item" data-section="home">
+            <i class="fas fa-house"></i>
+            <span>Start</span>
+        </a>
+        <a href="index.html#about" class="mobile-nav-item" data-section="about">
+            <i class="fas fa-info-circle"></i>
+            <span>Über Uns</span>
+        </a>
+        <a href="index.html#menu" class="mobile-nav-item" data-section="menu">
+            <i class="fas fa-utensils"></i>
+            <span>Speisekarte</span>
+        </a>
+        <a href="index.html#gallery" class="mobile-nav-item" data-section="gallery">
+            <i class="fas fa-camera"></i>
+            <span>Galerie</span>
+        </a>
+        <a href="index.html#contact" class="mobile-nav-item" data-section="contact">
+            <i class="fas fa-calendar-check"></i>
+            <span>Reservierung</span>
+        </a>
+    </nav>
 
     <script src="js/script.js"></script>
 </body>
