@@ -74,7 +74,7 @@ conn.on('ready', () => {
       sftp.readdir('/', (err, list) => {
         if (err || !list) {
           console.log('Cleanup skipped (could not read directory)');
-          process.exit(0);
+          conn.end();
           return;
         }
 
@@ -82,7 +82,7 @@ conn.on('ready', () => {
 
         if (tarFiles.length === 0) {
           console.log('No temp files to clean up.');
-          process.exit(0);
+          conn.end();
           return;
         }
 
@@ -96,7 +96,7 @@ conn.on('ready', () => {
             }
             deleted++;
             if (deleted === tarFiles.length) {
-              process.exit(0);
+              conn.end();
             }
           });
         }
@@ -111,6 +111,10 @@ conn.on('ready', () => {
 conn.on('error', (err) => {
   console.error('Connection error:', err.message);
   process.exit(1);
+});
+
+conn.on('end', () => {
+  process.exit(0);
 });
 
 conn.connect({
