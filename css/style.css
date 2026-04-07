@@ -316,7 +316,7 @@ img {
 
 .hero-content {
     position: relative;
-    z-index: 2;
+    z-index: 4;
     color: var(--clr-white);
     max-width: 800px;
     padding: 0 2rem;
