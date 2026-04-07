@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 reservationBar.classList.remove('visible');
             }
         }
-    });
+    }, { passive: true });
 
     // 3. Highlight Nav Menu Item on Scroll (top nav + mobile bottom nav)
     const sections = document.querySelectorAll('section');
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 scrollToTopBtn.classList.remove('visible');
             }
-        });
+        }, { passive: true });
 
         scrollToTopBtn.addEventListener('click', () => {
             window.scrollTo({
