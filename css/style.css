@@ -1350,6 +1350,11 @@ section h2::after {
         color: var(--clr-gold-light);
         background-color: rgba(212, 175, 55, 0.06);
     }
+
+    /* Footer bottom padding to account for fixed mobile bottom nav */
+    .footer {
+        padding-bottom: calc(64px + env(safe-area-inset-bottom) + 1rem);
+    }
 }
 
 /* Menu cards: single column from 480px (covers iPhone SE at 375px) */
