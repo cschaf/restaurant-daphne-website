@@ -173,6 +173,11 @@ document.addEventListener('DOMContentLoaded', () => {
             handleSwipe();
         }, { passive: true });
 
+        slider.addEventListener('touchcancel', () => {
+            touchStartX = 0;
+            touchEndX = 0;
+        }, { passive: true });
+
         function handleSwipe() {
             if (touchEndX < touchStartX - 50) {
                 // Swipe Left (Next)
@@ -215,6 +220,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 heroIntervalId = setInterval(nextHeroSlide, 6000);
             };
             restartHero();
+        }
+
+        // Hero swipe support
+        const heroContainer = document.getElementById('home');
+        if (heroContainer) {
+            let heroTouchStartX = 0;
+            heroContainer.addEventListener('touchstart', e => {
+                heroTouchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+            heroContainer.addEventListener('touchend', e => {
+                const delta = e.changedTouches[0].screenX - heroTouchStartX;
+                if (Math.abs(delta) > 50) {
+                    heroSlides[currentHeroSlide].classList.remove('active');
+                    currentHeroSlide = delta < 0
+                        ? (currentHeroSlide + 1) % heroSlides.length
+                        : (currentHeroSlide - 1 + heroSlides.length) % heroSlides.length;
+                    heroSlides[currentHeroSlide].classList.add('active');
+                }
+            }, { passive: true });
+            heroContainer.addEventListener('touchcancel', () => {
+                heroTouchStartX = 0;
+            }, { passive: true });
         }
     }
 
