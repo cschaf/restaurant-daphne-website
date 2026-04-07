@@ -68,7 +68,20 @@ conn.on('ready', () => {
     try {
       uploadDirectory(sftp, '.', '/');
       console.log('\nDeploy complete!');
-      process.exit(0);
+
+      // Cleanup old tar.gz files from failed deployments
+      console.log('\nCleaning up temporary files...');
+      sftp.readdir('/', (err, list) => {
+        if (!err && list) {
+          for (const item of list) {
+            if (item.filename.endsWith('.tar.gz')) {
+              console.log(`  Deleting: ${item.filename}`);
+              sftp.unlink(`/${item.filename}`);
+            }
+          }
+        }
+        process.exit(0);
+      });
     } catch (e) {
       console.error('Upload error:', e);
       process.exit(1);
