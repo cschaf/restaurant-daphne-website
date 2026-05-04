@@ -390,15 +390,6 @@ document.addEventListener('DOMContentLoaded', () => {
             { title: 'Griechischer Joghurt', price: '€6.50', desc: 'Mit Honig & Nüssen.' },
             { title: 'Crepes', price: '€8.50', desc: 'Mit Schoko und Eis.' },
             { title: 'Gemischtes Eis', price: '€6.50', desc: 'Drei Kugeln nach Wahl.' }
-        ],
-        'getraenke': [
-            { title: 'Beck\'s / Alster', price: '€4.40', desc: 'Vom Fass, 0,4L.' },
-            { title: 'Haakebeck Kräusen', price: '€4.80', desc: 'Vom Fass, 0,4L.' },
-            { title: 'Coca Cola / Spezi / Fanta', price: '€3.50', desc: 'Erfrischungsgetränke, 0,4L.' },
-            { title: 'S.Pellegrino / Acqua Panna', price: '€5.20', desc: 'Mineralwasser, 0,75L.' },
-            { title: 'Griechischer Wein (Weiß/Rot)', price: '€5.90', desc: 'Diverse Sorten, 0,25L.' },
-            { title: 'Ouzo', price: '€2.00', desc: 'Klassischer Anisschnaps, 2cl.' },
-            { title: 'Filterkaffee / Espresso', price: '€2.30', desc: 'Heißgetränke nach Wahl.' }
         ]
     };
 
