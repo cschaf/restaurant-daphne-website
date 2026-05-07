@@ -293,103 +293,103 @@ document.addEventListener('DOMContentLoaded', () => {
     // 7. Menu Interactive Modals
     const menuData = {
         'suppen': [
-            { title: 'Hausgemachte Tagessuppe', price: '€6.00', desc: 'Bitte fragen Sie uns nach dem aktuellen Angebot.' }
+            { title: 'Hausgemachte Tagessuppe', price: '6,00 €', desc: 'Bitte fragen Sie uns nach dem aktuellen Angebot.' }
         ],
         'vorspeisen-kalt': [
-            { title: 'Hausgemacht Zaziki', price: '€4.50', desc: 'Hausgemachter Joghurt-Gurken-Knoblauchdip.' },
-            { title: 'Bruschetta', price: '€7.50', desc: 'Geröstetes Weissbrot mit Tomaten, Knoblauch & Zwiebeln.' },
-            { title: 'Oktopussalat traditionell', price: '€8.50', desc: 'Zarter Oktopus mit mediterranen Kräutern.' },
-            { title: 'Carpaccio vom Rind', price: '€9.50', desc: 'Hauchdünne Rinderfiletscheiben mit Parmesan.' },
-            { title: 'Olive trifft Peperoni', price: '€6.50', desc: 'In feinem Olivenöl eingelegt.' }
+            { title: 'Hausgemacht Zaziki', price: '5,50 €', desc: 'Hausgemachter Joghurt-Gurken-Knoblauchdip.' },
+            { title: 'Bruschetta', price: '8,50 €', desc: 'Geröstetes Weissbrot mit Tomaten, Knoblauch & Zwiebeln.' },
+            { title: 'Oktopussalat traditionell', price: '9,50 €', desc: 'Zarter Oktopus mit mediterranen Kräutern.' },
+            { title: 'Carpaccio vom Rind', price: '8,50 €', desc: 'Hauchdünne Rinderfiletscheiben mit Parmesan.' },
+            { title: 'Olive trifft Peperoni', price: '8,50 €', desc: 'In feinem Olivenöl eingelegt.' }
         ],
         'vorspeisen-warm': [
-            { title: 'Überraschung für Zwei (Antipasti)', price: '€21.50', desc: 'Reichhaltige Auswahl an warmen Vorspeisen.' },
-            { title: 'Überraschung für Zwei (Antipasti & Fisch)', price: '€28.50', desc: 'Exquisite Auswahl an Meeresfrüchten und Antipasti.' },
-            { title: 'Weinblätter traditionell', price: '€7.50', desc: 'Gefüllte Weinblätter nach Hausrezept.' },
-            { title: 'Dicke Bohnen traditionell', price: '€9.00', desc: 'Mit original Fetakäse.' },
-            { title: 'Gebratene Peperoni traditionell', price: '€8.50', desc: 'Mit frischem Knoblauch.' },
-            { title: 'Überbackener Fetakäse traditionell', price: '€9.50', desc: 'Fetakäse naturbelassen aus dem Ofen mit Peperoni, Zwiebeln und Tomaten.' },
-            { title: 'Gebackener Fetakäse traditionell', price: '€7.50', desc: 'Gebackener Fetakäse, herzhaft paniert.' },
-            { title: 'Zucchini trifft Aubergine', price: '€7.50', desc: 'Gebratene Zucchini und Auberginenscheiben mit Knoblauch.' }
+            { title: 'Überraschung für Zwei (Antipasti)', price: '24,50 €', desc: 'Reichhaltige Auswahl an warmen Vorspeisen.' },
+            { title: 'Überraschung für Zwei (Antipasti & Fisch)', price: '32,50 €', desc: 'Exquisite Auswahl an Meeresfrüchten und Antipasti.' },
+            { title: 'Weinblätter traditionell', price: '8,50 €', desc: 'Gefüllte Weinblätter nach Hausrezept.' },
+            { title: 'Dicke Bohnen traditionell', price: '9,50 €', desc: 'Mit original Fetakäse.' },
+            { title: 'Gebratene Peperoni traditionell', price: '8,50 €', desc: 'Mit frischem Knoblauch.' },
+            { title: 'Überbackener Fetakäse traditionell', price: '10,50 €', desc: 'Fetakäse naturbelassen aus dem Ofen mit Peperoni, Zwiebeln und Tomaten.' },
+            { title: 'Gebackener Fetakäse traditionell', price: '9,50 €', desc: 'Gebackener Fetakäse, herzhaft paniert.' },
+            { title: 'Zucchini trifft Aubergine', price: '8,50 €', desc: 'Gebratene Zucchini und Auberginenscheiben mit Knoblauch.' }
         ],
         'salate': [
-            { title: 'Griechischer Salat klein', price: '€9.00', desc: 'Frische Tomaten, Gurken, Oliven und Feta.' },
-            { title: 'Griechischer Salat groß', price: '€11.00', desc: 'Die große Portion unseres Klassikers.' },
-            { title: 'Griechischer Bauernsalat traditionell', price: '€13.50', desc: 'Original Rezeptur mit feinsten Zutaten.' },
-            { title: 'Griechischer Salat mit Weinblätter', price: '€10.00', desc: 'Kombiniert mit gefüllten Weinblättern.' },
-            { title: 'Cremiger Fetakäse „natur" (Extra)', price: '€5.50', desc: 'Dressing: Knoblauch-Olivenöl oder Honig-Senf.' },
-            { title: 'Gebackener Fetakäse (Extra)', price: '€7.00', desc: 'Als Ergänzung zu Ihrem Salat.' },
-            { title: 'Gegrilltes Lachsfilet (Extra)', price: '€8.50', desc: 'Frisch vom Grill zum Salat.' },
-            { title: 'Gegrillte Scampi (3 Stück Extra)', price: '€9.00', desc: 'Große Scampi als Highlight.' },
-            { title: 'Gebratene Sardinen (Extra)', price: '€6.50', desc: 'Kross gebraten.' },
-            { title: 'Hähnchenbrustfilet (Extra)', price: '€6.50', desc: 'Saftig gegrillt.' }
+            { title: 'Griechischer Salat klein', price: '11,50 €', desc: 'Frische Tomaten, Gurken, Oliven und Feta.' },
+            { title: 'Griechischer Salat groß', price: '13,50 €', desc: 'Die große Portion unseres Klassikers.' },
+            { title: 'Griechischer Bauernsalat traditionell', price: '15,50 €', desc: 'Original Rezeptur mit feinsten Zutaten.' },
+            { title: 'Griechischer Salat mit Weinblätter', price: '13,50 €', desc: 'Kombiniert mit gefüllten Weinblättern.' },
+            { title: 'Cremiger Fetakäse „natur" (Extra)', price: '5,50 €', desc: 'Dressing: Knoblauch-Olivenöl oder Honig-Senf.' },
+            { title: 'Gebackener Fetakäse (Extra)', price: '7,00 €', desc: 'Als Ergänzung zu Ihrem Salat.' },
+            { title: 'Gegrilltes Lachsfilet (Extra)', price: '8,50 €', desc: 'Frisch vom Grill zum Salat.' },
+            { title: 'Gegrillte Scampi (3 Stück Extra)', price: '9,00 €', desc: 'Große Scampi als Highlight.' },
+            { title: 'Gebratene Sardinen (Extra)', price: '6,50 €', desc: 'Kross gebraten.' },
+            { title: 'Hähnchenbrustfilet (Extra)', price: '6,50 €', desc: 'Saftig gegrillt.' }
         ],
         'vegetarisch': [
-            { title: 'Griechischer Eintopf traditionell', price: '€14.50', desc: 'Herzhafter fleischloser Genuss nach Hausart.' }
+            { title: 'Griechischer Eintopf traditionell', price: '16,50 €', desc: 'Herzhafter fleischloser Genuss nach Hausart.' }
         ],
         'kinder': [
-            { title: 'Kinderpizza', price: '€8.50', desc: 'Ein Belag nach Wunsch.' },
-            { title: 'Kleines Hähnchenschnitzel', price: '€8.50', desc: 'Dazu knusprige Pommes Frites.' },
-            { title: 'Kinder Portion Gyros / Souvlaki', price: '€8.50', desc: 'Dazu Pommes Frites.' }
+            { title: 'Kinderpizza', price: '8,50 €', desc: 'Ein Belag nach Wunsch.' },
+            { title: 'Kleines Hähnchenschnitzel', price: '8,50 €', desc: 'Dazu knusprige Pommes Frites.' },
+            { title: 'Kinder Portion Gyros / Souvlaki', price: '8,50 €', desc: 'Dazu Pommes Frites.' }
         ],
         'fisch': [
-            { title: 'Lachsfilet aus dem Ofen', price: '€23.50', desc: 'Dazu Couscous Gemüse & Aioli.' },
-            { title: 'Kross gebratene Sardinen', price: '€18.50', desc: 'Auf Thymiankartoffeln & Aioli.' },
-            { title: 'Riesen Scampi', price: '€24.50', desc: 'Auf Kräuterkartoffelpüree & Aioli.' },
-            { title: 'Schollenfilet', price: '€24.50', desc: 'Auf Bratkartoffeln & Aioli.' },
-            { title: 'Calamari Tuben', price: '€18.50', desc: 'Frisch geschnitten auf Saisongemüse & Aioli.' }
+            { title: 'Lachsfilet aus dem Ofen', price: '26,50 €', desc: 'Dazu Couscous Gemüse & Aioli.' },
+            { title: 'Kross gebratene Sardinen', price: '20,50 €', desc: 'Auf Thymiankartoffeln & Aioli.' },
+            { title: 'Riesen Scampi', price: '26,50 €', desc: 'Auf Kräuterkartoffelpüree & Aioli.' },
+            { title: 'Schollenfilet', price: '26,50 €', desc: 'Auf Bratkartoffeln & Aioli.' },
+            { title: 'Calamari Tuben', price: '20,50 €', desc: 'Frisch geschnitten auf Saisongemüse & Aioli.' }
         ],
         'ofengerichte': [
-            { title: 'Lammfleisch traditionell', price: '€24.50', desc: 'Dazu Metaxasauce & Griechische Nudeln.' },
-            { title: 'Gyros in Metaxasauce', price: '€19.50', desc: 'Dazu Couscous.' },
-            { title: 'Gyros in Champignonsauce', price: '€19.50', desc: 'Dazu Pommes Frites.' },
-            { title: 'Schweinemedaillons in Weißweinsauce', price: '€21.00', desc: 'Dazu Couscous.' },
-            { title: 'Hähnchenmedaillons in Champignonsauce', price: '€20.50', desc: 'Dazu Couscous.' },
-            { title: 'Leber vom Schwein traditionell', price: '€19.00', desc: 'Dazu Couscous.' }
+            { title: 'Lammfleisch traditionell', price: '26,50 €', desc: 'Dazu Metaxasauce & Griechische Nudeln.' },
+            { title: 'Gyros in Metaxasauce', price: '21,50 €', desc: 'Dazu Couscous.' },
+            { title: 'Gyros in Champignonsauce', price: '21,50 €', desc: 'Dazu Pommes Frites.' },
+            { title: 'Schweinemedaillons in Weißweinsauce', price: '23,50 €', desc: 'Dazu Couscous.' },
+            { title: 'Hähnchenmedaillons in Champignonsauce', price: '21,50 €', desc: 'Dazu Couscous.' },
+            { title: 'Leber vom Schwein traditionell', price: '21,50 €', desc: 'Dazu Couscous.' }
         ],
         'grill': [
-            { title: 'Gyros vom Spieß', price: '€15.50', desc: 'Der Klassiker, dazu Reis.' },
-            { title: 'Sikoti (Leber)', price: '€14.50', desc: 'Leber vom Schwein mit gerüsteten Zwiebeln, dazu Couscous.' },
-            { title: 'Piräus (Bifteki)', price: '€16.00', desc: 'Bifteki vom Grill, dazu Couscous.' },
-            { title: 'Meteora (Schweinesteak)', price: '€16.00', desc: '250g mit gerüsteten Zwiebeln, dazu Couscous.' },
-            { title: 'Dias (Souvlaki)', price: '€16.00', desc: 'Souvlakispieß, dazu Couscous.' },
-            { title: 'Apollon (Bifteki überbacken)', price: '€18.00', desc: 'Dazu Metaxasauce und Reis.' },
-            { title: 'Larissa (Gyros & Leber)', price: '€18.00', desc: 'Dazu Reis.' },
-            { title: 'Saloniki (Gyros & Souvlaki)', price: '€18.00', desc: 'Dazu Reis.' },
-            { title: 'Athen (Lamm)', price: '€24.50', desc: 'Lammfilet & Lammkotelett, dazu Couscous.' },
-            { title: 'Santorini (Souvlaki gefüllt)', price: '€19.50', desc: 'Mit Feta, Peperoni und Tomaten, dazu Metaxasauce & Reis.' },
-            { title: 'Mykonos (Bifteki gefüllt)', price: '€20.50', desc: 'Mit Feta, Peperoni und Tomate, dazu Couscous.' },
-            { title: 'Attika (Lammkotelett)', price: '€21.50', desc: 'Zarte Koteletts, dazu Couscous.' },
-            { title: 'Fileto (Schweinefilet)', price: '€21.50', desc: 'Gefüllt mit Feta, dazu Reis.' },
-            { title: 'Herkules (Hähnchen)', price: '€20.50', desc: 'Das Beste vom Hähnchen, dazu Couscous.' },
-            { title: 'Akropolis (Schwein & Lamm)', price: '€23.50', desc: 'Schwein & Lammfilet, dazu Couscous.' },
-            { title: 'Daphne Platte', price: '€21.50', desc: 'Gyros, Souvlaki & Bifteki, dazu Reis.' },
-            { title: 'Olympia Platte', price: '€24.50', desc: 'Gyros, Souvlaki, Bifteki und Schweinesteak, dazu Reis.' }
+            { title: 'Gyros vom Spieß', price: '16,50 €', desc: 'Der Klassiker, dazu Reis.' },
+            { title: 'Sikoti (Leber)', price: '15,50 €', desc: 'Leber vom Schwein mit gerüsteten Zwiebeln, dazu Couscous.' },
+            { title: 'Piräus (Bifteki)', price: '18,50 €', desc: 'Bifteki vom Grill, dazu Couscous.' },
+            { title: 'Meteora (Schweinesteak)', price: '18,50 €', desc: '250g mit gerüsteten Zwiebeln, dazu Couscous.' },
+            { title: 'Dias (Souvlaki)', price: '18,50 €', desc: 'Souvlakispieß, dazu Couscous.' },
+            { title: 'Apollon (Bifteki überbacken)', price: '21,50 €', desc: 'Dazu Metaxasauce und Reis.' },
+            { title: 'Larissa (Gyros & Leber)', price: '20,50 €', desc: 'Dazu Reis.' },
+            { title: 'Saloniki (Gyros & Souvlaki)', price: '20,50 €', desc: 'Dazu Reis.' },
+            { title: 'Athen (Lamm)', price: '26,50 €', desc: 'Lammfilet & Lammkotelett, dazu Couscous.' },
+            { title: 'Santorini (Souvlaki gefüllt)', price: '22,50 €', desc: 'Mit Feta, Peperoni und Tomaten, dazu Metaxasauce & Reis.' },
+            { title: 'Mykonos (Bifteki gefüllt)', price: '23,50 €', desc: 'Mit Feta, Peperoni und Tomate, dazu Couscous.' },
+            { title: 'Attika (Lammkotelett)', price: '23,50 €', desc: 'Zarte Koteletts, dazu Couscous.' },
+            { title: 'Fileto (Schweinefilet)', price: '23,50 €', desc: 'Gefüllt mit Feta, dazu Reis.' },
+            { title: 'Herkules (Hähnchen)', price: '22,50 €', desc: 'Das Beste vom Hähnchen, dazu Couscous.' },
+            { title: 'Akropolis (Schwein & Lamm)', price: '25,50 €', desc: 'Schwein & Lammfilet, dazu Couscous.' },
+            { title: 'Daphne Platte', price: '23,50 €', desc: 'Gyros, Souvlaki & Bifteki, dazu Reis.' },
+            { title: 'Olympia Platte', price: '26,50 €', desc: 'Gyros, Souvlaki, Bifteki und Schweinesteak, dazu Reis.' }
         ],
         'pasta': [
-            { title: 'Hausgemachte Pasta', price: '€13.50', desc: 'Aus Hartweizengriess, Eiern & Olivenöl frisch zubereitet.' },
-            { title: 'Lachsfilet Extra (Pasta)', price: '€8.50', desc: 'Gegrillt zur Pasta.' },
-            { title: 'Scampi Extra (3 Stk)', price: '€9.00', desc: 'Gegrillte Scampi.' },
-            { title: 'Sardinen Extra (Pasta)', price: '€6.50', desc: 'Kross gebraten.' },
-            { title: 'Hähnchenbrust Extra (Pasta)', price: '€6.50', desc: 'Saftig gegrillt.' }
+            { title: 'Hausgemachte Pasta', price: '13,50 €', desc: 'Aus Hartweizengriess, Eiern & Olivenöl frisch zubereitet.' },
+            { title: 'Lachsfilet Extra (Pasta)', price: '8,50 €', desc: 'Gegrillt zur Pasta.' },
+            { title: 'Scampi Extra (3 Stk)', price: '9,00 €', desc: 'Gegrillte Scampi.' },
+            { title: 'Sardinen Extra (Pasta)', price: '6,50 €', desc: 'Kross gebraten.' },
+            { title: 'Hähnchenbrust Extra (Pasta)', price: '6,50 €', desc: 'Saftig gegrillt.' }
         ],
         'pizza': [
-            { title: 'Pizza Margherita', price: '€12.50', desc: 'Tomaten & Käse.' },
-            { title: 'Pizza Salami', price: '€13.50', desc: 'Tomaten, Käse & Salami.' },
-            { title: 'Pizza Prosciutto', price: '€13.50', desc: 'Tomaten, Käse & Schinken.' },
-            { title: 'Pizza Funghi', price: '€13.50', desc: 'Tomaten, Käse & Champignons.' },
-            { title: 'Pizza Salami Funghi', price: '€15.50', desc: 'Tomaten, Käse, Salami & Champignons.' },
-            { title: 'Pizza Prosciutto Funghi', price: '€15.50', desc: 'Tomaten, Käse, Schinken & Champignons.' },
-            { title: 'Pizza Quattro Stagioni', price: '€16.50', desc: 'Paprika, Zwiebeln, Schinken & Salami.' },
-            { title: 'Pizza Tonno', price: '€14.50', desc: 'Rote Zwiebeln & Thunfisch.' },
-            { title: 'Pizza Gyros', price: '€17.50', desc: 'Rote Zwiebeln, Peperoni & Gyros.' }
+            { title: 'Pizza Margherita', price: '14,50 €', desc: 'Tomaten & Käse.' },
+            { title: 'Pizza Salami', price: '15,50 €', desc: 'Tomaten, Käse & Salami.' },
+            { title: 'Pizza Prosciutto', price: '15,50 €', desc: 'Tomaten, Käse & Schinken.' },
+            { title: 'Pizza Funghi', price: '15,50 €', desc: 'Tomaten, Käse & Champignons.' },
+            { title: 'Pizza Salami Funghi', price: '16,50 €', desc: 'Tomaten, Käse, Salami & Champignons.' },
+            { title: 'Pizza Prosciutto Funghi', price: '16,50 €', desc: 'Tomaten, Käse, Schinken & Champignons.' },
+            { title: 'Pizza Quattro Stagioni', price: '18,50 €', desc: 'Paprika, Zwiebeln, Schinken & Salami.' },
+            { title: 'Pizza Tonno', price: '16,50 €', desc: 'Rote Zwiebeln & Thunfisch.' },
+            { title: 'Pizza Gyros', price: '18,50 €', desc: 'Rote Zwiebeln, Peperoni & Gyros.' }
         ],
         'desserts': [
-            { title: 'Tiramisu', price: '€7.50', desc: 'Hausgemachtes italienisches Dessert.' },
-            { title: 'Kadaifi', price: '€6.50', desc: 'Griechische Spezialität mit einer Kugel Eis.' },
-            { title: 'Griechischer Joghurt', price: '€6.50', desc: 'Mit Honig & Nüssen.' },
-            { title: 'Crepes', price: '€8.50', desc: 'Mit Schoko und Eis.' },
-            { title: 'Gemischtes Eis', price: '€6.50', desc: 'Drei Kugeln nach Wahl.' }
+            { title: 'Tiramisu', price: '7,50 €', desc: 'Hausgemachtes italienisches Dessert.' },
+            { title: 'Kadaifi', price: '6,50 €', desc: 'Griechische Spezialität mit einer Kugel Eis.' },
+            { title: 'Griechischer Joghurt', price: '6,50 €', desc: 'Mit Honig & Nüssen.' },
+            { title: 'Crepes', price: '8,50 €', desc: 'Mit Schoko und Eis.' },
+            { title: 'Gemischtes Eis', price: '6,50 €', desc: 'Drei Kugeln nach Wahl.' }
         ]
     };
 

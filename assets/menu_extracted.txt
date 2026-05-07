@@ -1,41 +1,40 @@
+
+--- PAGE 1 ---
 Willkomen im Restaurant
 Mediterranes Restaurant
 SPEISEKARTE
 
---- PAGE ---
+--- PAGE 2 ---
 
 
-
---- PAGE ---
-
+--- PAGE 3 ---
 3
 DAPHNE
-Offen und sonnendurchflutet bei Tag, gemütlich bei Nacht, ist das Restaurant ein Ort, an
+Offen und sonnendurchflutet bei Tag, gemÃ¼tlich bei Nacht, ist das Restaurant ein Ort, an
 dem Freunde bei gutem Essen und Trinken gern zusammenkommen.
-Ob nun bei ein wenig Privatsphäre mit einer Gruppe von bis zu 10 Freunden unter sich,
+Ob nun bei ein wenig PrivatsphÃ¤re mit einer Gruppe von bis zu 10 Freunden unter sich,
 bei einer guten Zigarette im Raucherseparee, oder in den Sommermonaten auf unserer
-Terrasse  Jeder unserer Gäste ist herzlich willkommen!
-Gerne richten wir auch größere Feiern für sie aus. Fragen sie uns!
-Unsere Speisen werden mit viel Liebe und Sorgfalt täglich frisch zubereitet. Wir legen 
-großen
-Wert auf Frische und haben einen hohen Qualitätsanspruch an die verwendeten Produkte.
+Terrasse  Jeder unserer GÃ¤ste ist herzlich willkommen!
+Gerne richten wir auch grÃ¶ÃŸere Feiern fÃ¼r sie aus. Fragen sie uns!
+Unsere Speisen werden mit viel Liebe und Sorgfalt tÃ¤glich frisch zubereitet. Wir legen 
+groÃŸen
+Wert auf Frische und haben einen hohen QualitÃ¤tsanspruch an die verwendeten Produkte.
 Unser Restaurant teilt seinen Namen mit einer Figur aus der griechischen Mythologie.
 Daphne ist die tragische Figur im Mythos um einem Streit zwischen Apollon und Eros
-um den Titel des besten Bogenschützen. Von Apollon verhöhnt, schoss Eros zwei Pfeile.
+um den Titel des besten BogenschÃ¼tzen. Von Apollon verhÃ¶hnt, schoss Eros zwei Pfeile.
 Einen mit goldener Spitze, mit dem er Apollon traf, auf dass dieser sich unsterblich in 
 Daphne
 verliebte, einen Pfeil mit bleierner Spitze, der Daphne galt, auf dass sie Apollons Liebe nie
 erwidern werde.
 Daphne, die von nun an versuchte, Apollon zu entfliehen, wusste in ihrer Verzweiflung
-schließlich keinen Ausweg mehr und flehte ihren Vater Peneus an, ihren Körper, der 
+schlieÃŸlich keinen Ausweg mehr und flehte ihren Vater Peneus an, ihren KÃ¶rper, der 
 Apollon
 so sehr den Kopf verdreht hatte, zu wandeln.
 Peneus gab ihrem Flehen nach und verwandelte Daphne, getreu ihres Namens in einen
-Lorbeerbaum. Apollon, seiner größten Liebe beraubt,
-heiligt den Lorbeerkranz, schmückt sich mit ihm und trägt ihn fortan immer bei sich.
+Lorbeerbaum. Apollon, seiner grÃ¶ÃŸten Liebe beraubt,
+heiligt den Lorbeerkranz, schmÃ¼ckt sich mit ihm und trÃ¤gt ihn fortan immer bei sich.
 
---- PAGE ---
-
+--- PAGE 4 ---
 4
 DAPHNE
 01. Hausgemachte Tagessuppe
@@ -43,88 +42,112 @@ DAPHNE
 03. Bruschetta
 04. Oktopussalat traditionell
 05. Carpaccio vom Rind
-06. Olive trifft Peperoni in Olivenöl
-07. Überraschung für Zwei
-08. Überraschung für Zwei
-09. Weinblätter traditionell
+06. Olive trifft Peperoni in OlivenÃ¶l
+07. Ãœberraschung fÃ¼r Zwei
+08. Ãœberraschung fÃ¼r Zwei
+09. WeinblÃ¤tter traditionell
 10. Dicke Bohnen traditionell
 11. Gebratene Peperoni traditionell
-12. Überbackener Fetakäse traditionell
-13. Gebackener Fetakäse traditionell
+12. Ãœberbackener FetakÃ¤se traditionell
+13. Gebackener FetakÃ¤se traditionell
 14. Zucchini trifft Aubergine
-Alle Vorspeisen servieren wir mit hausgemachten Brötchen.
-6,00 €
-4,50 €
-7,50 €
-8,50 €
-9,50 €
-6,50 €
-21,50 €
-28,50 €
-7,50 €
-9,00 €
-8,50 €
-9,50 €
-7,50 €
-7,50 €
+Alle Vorspeisen servieren wir mit hausgemachten BrÃ¶tchen.
+6,00 â‚¬
+5,50 â‚¬
+8,50 â‚¬
+9,50 â‚¬
+8,50 â‚¬
+8,50 â‚¬
+24,50 â‚¬
+32,50 â‚¬
+8,50 â‚¬
+9,50 â‚¬
+8,50 â‚¬
+10,50 â‚¬
+9,50 â‚¬
+8,50 â‚¬
 BITTE FRAGEN SIE UNS
-GERÖSTETES WEISSBROT MIT TOMATEN, KNOBLAUCH & ZWIEBELN
+GERÃ–STETES WEISSBROT MIT TOMATEN, KNOBLAUCH & ZWIEBELN
 ANTIPASTI
 ANTIPASTI & FISCH
-MIT FETAKÄSE
+MIT FETAKÃ„SE
 MIT KNOBLAUCH
-FETAKÄSE «NATURBELASSEN» AUS DEM OFEN MIT PEPERONI, ZWIEBELN UND TOMATEN
-GEBACKENER FETAKÄSE, PANIERT
+FETAKÃ„SE Â«NATURBELASSENÂ» AUS DEM OFEN MIT PEPERONI, ZWIEBELN UND TOMATEN
+GEBACKENER FETAKÃ„SE, PANIERT
 GEBRATENE ZUCCHINI UND AUBERGINENSCHEIBEN MIT KNOBLAUCH
 Hausgemachte,kalte Vorspeisen
 Hausgemachte,warmeVorspeisen
+3,9 A,B,D,J
+1,4   A,D
+4   A
+4,9   A,F
+4,9   A,D,E,H
+A,B,D,G,I
+A,B,D,G,I
+9 A
+4,7   A,D
+4   A
+4   A
+7   A,D
+1,4,7,9   A,H
+7   A,D
 
-
---- PAGE ---
-
+--- PAGE 5 ---
 5
 DAPHNE
 15. Griechischer Salat klein
-16. Griechischer Salat groß
+16. Griechischer Salat groÃŸ
 Wahlweise zu unserem griechischen Salat:
-17. cremiger Fetakäse „natur“
-18. gebackener Fetakäse
+17. cremiger FetakÃ¤se â€žnaturâ€œ
+18. gebackener FetakÃ¤se
 19. gegrilltes Lashsf ilet
-20. gegrillte Scampi (3 Stück)
+20. gegrillte Scampi (3 StÃ¼ck)
 21. kross gebratene Sardinen
-22. gegrilltes Hähnchenbrustf ilet
+22. gegrilltes HÃ¤hnchenbrustf ilet
 23. Griechischer Bauernsalat traditionell
-24. Griechischer salat mit weinblätter
+24. Griechischer salat mit weinblÃ¤tter
 25. Griechischer Eintopf traditionell
 26. Kinderpizza
-27. Kleines Hähnchenschnitzel
+27. Kleines HÃ¤hnchenschnitzel
 28. Kleine Portion Gyros oder 1 Souvlaki
-9,00 €
-11,00 €
-5,50 €
-7,00 €
-8,50 €
-9,00 €
-6,50 €
-6,50 €
-13,50 €
-10,00 €
-14,50 €
-8,50 €
-8,50 €
-8,50 €
+11,50 â‚¬
+13,50 â‚¬
+5,50 â‚¬
+7,00 â‚¬
+8,50 â‚¬
+9,00 â‚¬
+6,50 â‚¬
+6,50 â‚¬
+15,50 â‚¬
+13,50 â‚¬
+16,50 â‚¬
+8,50 â‚¬
+8,50 â‚¬
+8,50 â‚¬
 EIN BELAG NACH WUNSCH
 DAZU POMMES FRITES
 DAZU POMMES FRITES
 MEHR AN VEGETARISCHEN GERICHTEN FINDEN SIE UNTER VORSPEISEN, SALATEN, PIZZA UND PASTA!
 KINDER-TELLER
-Knoblauch-Olivenöl oder Honig-Senf
+Knoblauch-OlivenÃ¶l oder Honig-Senf
 Vegetarische Gerichte
 Dressings
+ 4,7,8 D,E,H
+ 4,7,8 D,E,H
+ 1,7 D
+ 4,7 A, D
+ 4,9 I
+ 4,9 G
+ 4,9      A,I
+ 3,9       E
+ 4,7,8      D,E,H
+4,7,8,9     A,D,E,H
+    3, 4, 9                   J
+1, 3, 7, 9            A, D
+3, 4, 9              A, B, C
+1, 3, 9                   A
 
-
---- PAGE ---
-
+--- PAGE 6 ---
 6
 DAPHNE
 29. Lachsf ilet
@@ -133,279 +156,330 @@ DAPHNE
 32. Schollenf ilet
 33. Calamari
 34. Lammfleisch traditionell
-23,50 €
-18,50 €
-24,50 €
-24,50 €
-18,50 €
-24,50 €
-AUS DEM BACKOFEN, DAZU COUSCOUS GEMÜSE & AIOLI
+26,50 â‚¬
+20,50 â‚¬
+26,50 â‚¬
+26,50 â‚¬
+20,50 â‚¬
+26,50 â‚¬
+AUS DEM BACKOFEN, DAZU COUSCOUS GEMÃœSE & AIOLI
 AUF THYMIANKARTOFFELN & AIOLI
-AUF KRÄUTERKARTOFFELPÜREE & AIOLI
+AUF KRÃ„UTERKARTOFFELPÃœREE & AIOLI
 AUF BRATKARTOFFELN & AIOLI
-FRISCH GESCHNITTENE TUBEN TREFFEN AUF SAISONGEMÜSE & AIOLI
+FRISCH GESCHNITTENE TUBEN TREFFEN AUF SAISONGEMÃœSE & AIOLI
 DAZU METAXASAUCE & GRIECHISCHE NUDELN
 OFENGERICHTE
-35. Gyros in Metaxasauce                19,50 €
+35. Gyros in Metaxasauce                21,50 â‚¬
         DAZU COUSCOUS
-36. Gyros in Champignonsauce                  19,50 €
+36. Gyros in Champignonsauce                  21,50 â‚¬
         DAZU POMMES FRITES
-37. Schweinemedaillons in Weißweinsauce              21,00 €
+37. Schweinemedaillons in WeiÃŸweinsauce              23,50 â‚¬
        DAZU COUSCOUS
-38. Hähnchenmedaillons in Champignonsauce             20,50 €
+38. HÃ¤hnchenmedaillons in Champignonsauce             21,50 â‚¬
         DAZU COUSCOUS
-39. Leber vom Schwein traditionell               19,00 €
+39. Leber vom Schwein traditionell               21,50 â‚¬
         DAZU COUSCOUS
 Alle Ofengerichte servieren wir mit Beilagensalat
+3, 4, 9          A, B, D, I
+4, 9                    A, I
+3, 4, 9        A, B, D, G
+3, 4, 9          A, B, D, I
+4, 9             A, B, D, F
+3, 4, 7, 9        A, D, J
+3, 7, 9                 A, D
+3, 7, 9               A, D
+3, 4, 9           A, D, H
+3, 9                  A, D
+3, 9                       A
 
-
---- PAGE ---
-
+--- PAGE 7 ---
 7
 DAPHNE
-40. GEMÜSEREIS            3,20 €
-41. COUSCOUS GEMÜSE            3,00 €
-42. DICKE BOHNEN            6,00 €
-43. BRATKARTOFFELN            5,50 €
-44. THYMIANKARTOFFELN          5,50 €
-45. POMMES FRITES            4,00 €
-46. KRÄUTERKARTOFFELPÜREE          5,50 €
-47. SAISONGEMÜSE            5,50 €
-48. GRIECHISCHE NUDELN           6,50 €
-49. METAXASAUCE              5,50 €
-50. CHAMPIGNONSAUCE           5,50 €
-51. AIOLI              4,50 €
+40. GEMÃœSEREIS            3,20 â‚¬
+41. COUSCOUS GEMÃœSE            3,00 â‚¬
+42. DICKE BOHNEN            7,50 â‚¬
+43. BRATKARTOFFELN            5,50 â‚¬
+44. THYMIANKARTOFFELN          5,50 â‚¬
+45. POMMES FRITES            4,50 â‚¬
+46. KRÃ„UTERKARTOFFELPÃœREE          5,50 â‚¬
+47. SAISONGEMÃœSE            6,50 â‚¬
+48. GRIECHISCHE NUDELN           6,50 â‚¬
+49. METAXASAUCE              7,50 â‚¬
+50. CHAMPIGNONSAUCE           7,50 â‚¬
+51. AIOLI              4,50 â‚¬
 Saucen, Hausgemacht
+3, 9                    A, J
+3, 9                    A, J
+4                 
+4                 
+4                 
+3, 4, 9                    A
+3, 9                        D
+4
+4, 9                       A
+3, 7, 9                     D
+3, 9                         D
+3, 4, 9            B, D, E
 
-
---- PAGE ---
-
+--- PAGE 8 ---
 8
 DAPHNE
-57. APOLLON                   18,00 €
-       BIFTEKI ÜBERBACKEN, DAZU METAXASAUCE UND REIS
-58. LARISSA                   18,00 €
+57. APOLLON                   21,50 â‚¬
+       BIFTEKI ÃœBERBACKEN, DAZU METAXASAUCE UND REIS
+58. LARISSA                   20,50 â‚¬
        GYROS & LEBER VOM SCHWEIN, DAZU REIS
-59. SALONIKI                   18,00 €
+59. SALONIKI                   20,50 â‚¬
        GYROS & SOUVLAKI, DAZU REIS
-60. ATHEN                    24,50 €
+60. ATHEN                    26,50 â‚¬
        LAMMFILET & LAMMKOTELETT, DAZU COUSCOUS
-61. SANTORINI                   19,50 €
-       SOUVLAKI GEFÜLLT MIT FETA,PEPERONI UND TOMATEN, DAZU METAXASAUCE & REIS
-62. MYKONOS                   20,50 €
-       BIFTEKI GEFÜLLT MIT FETA, PEPERONI UND TOMATE, DAZU COUSCOUS
-63. ATTIKA             21,50 €
+61. SANTORINI                   22,50 â‚¬
+       SOUVLAKI GEFÃœLLT MIT FETA,PEPERONI UND TOMATEN, DAZU METAXASAUCE & REIS
+62. MYKONOS                   23,50 â‚¬
+       BIFTEKI GEFÃœLLT MIT FETA, PEPERONI UND TOMATE, DAZU COUSCOUS
+63. ATTIKA             23,50 â‚¬
        KOTELETT VOM LAMM, DAZU COUSCOUS
-64. FILETO                    21,50 €
-       GEFÜLLTES MIT FETA SCHWEINEFILET, DAZU REIS
-65. HERKULES                   20,50 €
-       DAS BESTE VOM HÄHNCHEN, DAZU COUSCOUS
-66. AKROPOLIS                   23,50 €
+64. FILETO                    23,50 â‚¬
+       GEFÃœLLTES MIT FETA SCHWEINEFILET, DAZU REIS
+65. HERKULES                   22,50 â‚¬
+       DAS BESTE VOM HÃ„HNCHEN, DAZU COUSCOUS
+66. AKROPOLIS                   25,50 â‚¬
        DAS BESTE VOM SCHWEIN & LAMMFILET, DAZU COUSCOUS
-67. DAPHNE                    21,50 €
+67. DAPHNE                    23,50 â‚¬
        GYROS, SOUVLAKI & BIFTEKI, DAZU REIS
-68. OLYMPIA                   24,50 €
+68. OLYMPIA                   26,50 â‚¬
        GYROS, SOUVLAKI, BIFTEKI UND SCHWEINESTEAK, DAZU REIS
-Ergänzungen zu unseren Fleischgerichten vom Grill: 
-69. Gyros vom Spieß  7,50 € 
-70. Bifteki  5,50 €
-71. Leber vom Schwein 5,50 €
+ErgÃ¤nzungen zu unseren Fleischgerichten vom Grill: 
+69. Gyros vom SpieÃŸ  7,50 â‚¬ 
+70. Bifteki  5,50 â‚¬
+71. Leber vom Schwein 5,50 â‚¬
 Alle Fleischgerichte vom Grill servieren wir mit Beilagensalat & Zaziki.
 Auf Wunsch servieren wir alle Fleischgerichte auch mit Pommes Frites.
-52. GYROS                    15,50 €
+52. GYROS                    16,50 â‚¬
        VOM SPIESS, DAZU REIS
-53. SIKOTI                         14,50 €
-       LEBER VOM SCHWEIN, MIT GERÜSTETE ZWIEBELN, DAZU COUSCOUS
-54. PIRÄUS                    16,00 €
+53. SIKOTI                         15,50 â‚¬
+       LEBER VOM SCHWEIN, MIT GERÃœSTETE ZWIEBELN, DAZU COUSCOUS
+54. PIRÃ„US                    18,50 â‚¬
        BIFTEKI VOM GRILL, DAZU COUSCOUS
-55. METEORA                   16,00 €
-       SCHWEINESTEAK VOM GRILL 250G, MIT GERÜSTETE ZWIEBELN, DAZU COUSCOUS
-56. DIAS                    16,00 €
+55. METEORA                   18,50 â‚¬
+       SCHWEINESTEAK VOM GRILL 250G, MIT GERÃœSTETE ZWIEBELN, DAZU COUSCOUS
+56. DIAS                    18,50 â‚¬
        SOUVLAKISPIESS, DAZU COUSCOUS
+3, 9                A, D, E
+3, 9                         A
+3, 9                A, D, E
+3, 9                        A
+3, 9                     A, E
+3, 7, 9                A, D
+3, 9                A, D, E
+3, 9                A, D, E
+3, 9                A, D, E
+3, 7, 9             A, D, E
+3, 7, 9             A, D, E
+3, 7, 9            A, D, E
+ 3, 7, 9            A, D, E
+3, 7, 9            A, D, E
+3, 7, 9             A, D, E
+3, 7, 9             A, D, E
+3, 7, 9             A, D, E
+3, 7, 9             A, D, E
+3, 7, 9              A, D, E
+3, 9                         A
 
---- PAGE ---
-
+--- PAGE 9 ---
 9
 DAPHNE
-72. HAUSGEMACHTE PASTA                 13,50 €
-       AUS HARTWEIZENGRIESS, EIERN & OLIVENÖL FRISCH ZUBEREITET
+72. HAUSGEMACHTE PASTA                 13,50 â‚¬
+       AUS HARTWEIZENGRIESS, EIERN & OLIVENÃ–L FRISCH ZUBEREITET
 WAHLWEISE ZU UNSERER PASTA:
-73. CREMIGER FETAKÄSE „NATUR“          5,50 €
-74. GEBACKENER FETAKÄSE           6,50 €
-75. GEGRILLTES LACHSFILET           8,50 €
-76. GEGRILLTE SCAMPI (3 STÜCK)          9,00 €
-77. KROSS GEBRATENE SARDINEN          6,50 €
-78. GEGRILLTES HÄHNCHENBRUSTFILET         6,50 €
-79. PIZZA MARGHERITA           12,50 €
-       TOMATEN & KÄSE
-80. PIZZA SALAMI                  13,50 €
-       TOMATEN, KÄSE & SALAMI
-81. PIZZA PROSCIUTTO                  13,50 €
-       TOMATEN, KÄSE & SCHINKEN
-82. PIZZA FUNGHI                  13,50 €
-       TOMATEN, KÄSE & CHAMPIGNONS
-83. PIZZA SALAMI FUNGHI                 15,50 €
-       TOMATEN, KÄSE, SALAMI & CHAMPIGNONS
-84. PIZZA PROSCIUTTO FUNGHI                15,50 €
-       TOMATEN, KÄSE, SCHINKEN & CHAMPIGNONS
-85. PIZZA QUATTRO STAGIONI                16,50 €
-       TOMATEN, KÄSE, PAPRIKA, ZWIEBELN, SCHINKEN & SALAMI
-86. PIZZA TONNO           14,50 €
-       TOMATEN, KÄSE, ROTE ZWIEBELN & THUNFISCH
-87. PIZZA GYROS                   17,50 €
-       TOMATEN, KÄSE, ROTE ZWIEBELN & PEPERONI, GYROS
+73. CREMIGER FETAKÃ„SE â€žNATURâ€œ          5,50 â‚¬
+74. GEBACKENER FETAKÃ„SE           6,50 â‚¬
+75. GEGRILLTES LACHSFILET           8,50 â‚¬
+76. GEGRILLTE SCAMPI (3 STÃœCK)          9,00 â‚¬
+77. KROSS GEBRATENE SARDINEN          6,50 â‚¬
+78. GEGRILLTES HÃ„HNCHENBRUSTFILET         6,50 â‚¬
+79. PIZZA MARGHERITA           14,50 â‚¬
+       TOMATEN & KÃ„SE
+80. PIZZA SALAMI                  15,50 â‚¬
+       TOMATEN, KÃ„SE & SALAMI
+81. PIZZA PROSCIUTTO                  15,50 â‚¬
+       TOMATEN, KÃ„SE & SCHINKEN
+82. PIZZA FUNGHI                  15,50 â‚¬
+       TOMATEN, KÃ„SE & CHAMPIGNONS
+83. PIZZA SALAMI FUNGHI                 16,50 â‚¬
+       TOMATEN, KÃ„SE, SALAMI & CHAMPIGNONS
+84. PIZZA PROSCIUTTO FUNGHI                16,50 â‚¬
+       TOMATEN, KÃ„SE, SCHINKEN & CHAMPIGNONS
+85. PIZZA QUATTRO STAGIONI                18,50 â‚¬
+       TOMATEN, KÃ„SE, PAPRIKA, ZWIEBELN, SCHINKEN & SALAMI
+86. PIZZA TONNO           16,50 â‚¬
+       TOMATEN, KÃ„SE, ROTE ZWIEBELN & THUNFISCH
+87. PIZZA GYROS                   18,50 â‚¬
+       TOMATEN, KÃ„SE, ROTE ZWIEBELN & PEPERONI, GYROS
+3, 4, 9                A, B
+1, 7                    A, D
+4, 7                   A, D
+4, 9                         I
+4, 9                        G
+4, 9                     A, I
+1, 3, 7, 9            A, D
+1, 3, 7, 9             A, D
+1, 3, 7, 9             A, D
+1, 3, 7, 9             A, D
+1, 3, 7, 9            A, D
+1, 3, 7, 9             A, D
+1, 3, 7, 9            A, D
+1, 3, 7, 9           A, D, I
+1, 3, 7, 9          A, D, E
+3, 9                         E
 
 
---- PAGE ---
-
+--- PAGE 10 ---
 10
 DAPHNE
-88. TIRAMISU             7,50 €
-89. KADAIFI GRIECHISCHE SPEZIALITÄT         6,50 €
+88. TIRAMISU             7,50 â‚¬
+89. KADAIFI GRIECHISCHE SPEZIALITÃ„T         6,50 â‚¬
        DAZU EINE KUGEL EIS
-90. GRIECHISCHER JOGHURT           6,50 €
-       MIT HONIG & NÜSSE
-91. CREPES              8,50 €
+90. GRIECHISCHER JOGHURT           6,50 â‚¬
+       MIT HONIG & NÃœSSE
+91. CREPES              8,50 â‚¬
        MIT SCHOKO DAZU EIS
-92. GEMISCHTES EIS            6,50 €
+92. GEMISCHTES EIS            6,50 â‚¬
 Hausgemacht
+6, 7                A, B, D
+7, 8                A, D, K
+8                        D, K
+7, 8            A, B, D, K
+7, 8                B, D, K
 
-
---- PAGE ---
-
+--- PAGE 11 ---
 11
 DAPHNE
 
 
---- PAGE ---
-
+--- PAGE 12 ---
 12
 DAPHNE
 Digestifs
-106. FERNET BRANCA          2CL   2,00 €
-107. RAMAZZOTTI          4CL  4,00 €
-108. JÄGERMELSTER          2CL   2,00 €
-109. SAMBUCA           2CL   2,00 €
-110. OUZO            2CL   2,00 €
-111. BALLEYS           4CL  3,50 €
-112. FRANGELLKO          4CL   3,50 €
-113. VODKA           2CL   4,00 €
-114. BACARDI           4CL   3,70 €
-115. HAVANA CLUB          4CL   3,70 €
-116. JACK DANLELS WHISKEY         4CL    400 €
-117. SPIRITUOSEN ALS LONGDRINK                 +1,30 €
-Warme Getränke
-93. TASSE KAFFEE            2,30 €
-94. TASSE TEE             1,90 €
+106. FERNET BRANCA          2CL   2,00 â‚¬
+107. RAMAZZOTTI          4CL  4,00 â‚¬
+108. JÃ„GERMELSTER          2CL   2,00 â‚¬
+109. SAMBUCA           2CL   2,00 â‚¬
+110. OUZO            2CL   2,00 â‚¬
+111. BALLEYS           4CL  3,50 â‚¬
+112. FRANGELLKO          4CL   3,50 â‚¬
+113. VODKA           2CL   4,00 â‚¬
+114. BACARDI           4CL   3,70 â‚¬
+115. HAVANA CLUB          4CL   3,70 â‚¬
+116. JACK DANLELS WHISKEY         4CL    400 â‚¬
+117. SPIRITUOSEN ALS LONGDRINK                 +1,30 â‚¬
+Warme GetrÃ¤nke
+93. TASSE KAFFEE            2,30 â‚¬
+94. TASSE TEE             1,90 â‚¬
         VERSCHIEDENE SORTEN
-95. GRIECHISCHER MOKKA           2,30 €
-96. ESPRESSO             2,00 €
-98. LATTE MACCHIATO            2,90 €
-99. CAPPUCCINO             2,50 €
+95. GRIECHISCHER MOKKA           2,30 â‚¬
+96. ESPRESSO             2,00 â‚¬
+98. LATTE MACCHIATO            2,90 â‚¬
+99. CAPPUCCINO             2,50 â‚¬
 Aperitifs
-100. METAXA 7 STERNE          2CL   3,80 €
-101. METAXA 5 STERNE          2CL   3,40 €
-102. MARTINI BIANCO          5CL   3,00 €
-103. MARTINI ROSSO          5CL   3,00 €
-104. GRAPPA GAVI          2CL   3,50 €
-105. WILLIAMS BIME          2CL   3,50 €
+100. METAXA 7 STERNE          2CL   3,80 â‚¬
+101. METAXA 5 STERNE          2CL   3,40 â‚¬
+102. MARTINI BIANCO          5CL   3,00 â‚¬
+103. MARTINI ROSSO          5CL   3,00 â‚¬
+104. GRAPPA GAVI          2CL   3,50 â‚¬
+105. WILLIAMS BIME          2CL   3,50 â‚¬
 
 
---- PAGE ---
-
+--- PAGE 13 ---
 13
 DAPHNE
-Alkoholfreie Getränke
-118. COCA COLA           0,3L   2,50 €
-119. COCA COLA           0,4L   3,50 €
-120. SPEZI            0,3L   2,50 €
-121. SPEZI            0,4L   3,50 €
-122. COCA COLA LIGHT          0,3L   2,50 €
-123. COCA COLA LIGHT          0,4L   3,50 €
-124. FANTA            0,3L   2,50 €
-125. FANTA            0,4L   3,50 €
-126. SPRITE           0,3L   2,50 €
-127. SPRITE            0,4L   3,50 €
-128. S.PELLEGRINO MEDIUM                           0,25L    2,50 €
-129. S.PELLEGRINO MEDIUM               0,75L   5,20 €
-130. ACQUA PANNA NATURELLE              0,25L    2,50 €
-131. ACQUA PANNA NATURELLE                 0,75L   5,20 €
-132. BITTER LEMON          0,2L   2,30 €
-133. GINGER ALE           0,2L   2,30 €
-Fruchtsäfte
-134. SAFTSCHORLE          0,3L    2,50€
-135. SAFTSCHORLE          0,4L    3,50€
-136. APFELSAFT           0,3L    2,80€
-137. APFELSAFT           0,4L    3,80€
-138. ORANGENSAFT          0,3L    2,80€
-139. ORANGENSAFT          0,4L    3,80€
-140. KIRSCH NEKTAR          0,3L    2,80€
-141. KIRSCH NEKTAR          0,4L    3,80€
-142. KIBA            0,3L    2,80€
-143. KIBA            0,4L    3,80€
-144. RHABARBERSAFT          0,3L    2,80€
-145. RHABARBERSAFT          0,4L    3,80€
-146. MARACUJA NEKTAR         0,3L    2,80€
-147. MARACUJA NEKTAR         0,4L    3,80€
+Alkoholfreie GetrÃ¤nke
+118. COCA COLA           0,3L   2,50 â‚¬
+119. COCA COLA           0,4L   3,50 â‚¬
+120. SPEZI            0,3L   2,50 â‚¬
+121. SPEZI            0,4L   3,50 â‚¬
+122. COCA COLA LIGHT          0,3L   2,50 â‚¬
+123. COCA COLA LIGHT          0,4L   3,50 â‚¬
+124. FANTA            0,3L   2,50 â‚¬
+125. FANTA            0,4L   3,50 â‚¬
+126. SPRITE           0,3L   2,50 â‚¬
+127. SPRITE            0,4L   3,50 â‚¬
+128. S.PELLEGRINO MEDIUM                           0,25L    2,50 â‚¬
+129. S.PELLEGRINO MEDIUM               0,75L   5,20 â‚¬
+130. ACQUA PANNA NATURELLE              0,25L    2,50 â‚¬
+131. ACQUA PANNA NATURELLE                 0,75L   5,20 â‚¬
+132. BITTER LEMON          0,2L   2,30 â‚¬
+133. GINGER ALE           0,2L   2,30 â‚¬
+FruchtsÃ¤fte
+134. SAFTSCHORLE          0,3L    2,50â‚¬
+135. SAFTSCHORLE          0,4L    3,50â‚¬
+136. APFELSAFT           0,3L    2,80â‚¬
+137. APFELSAFT           0,4L    3,80â‚¬
+138. ORANGENSAFT          0,3L    2,80â‚¬
+139. ORANGENSAFT          0,4L    3,80â‚¬
+140. KIRSCH NEKTAR          0,3L    2,80â‚¬
+141. KIRSCH NEKTAR          0,4L    3,80â‚¬
+142. KIBA            0,3L    2,80â‚¬
+143. KIBA            0,4L    3,80â‚¬
+144. RHABARBERSAFT          0,3L    2,80â‚¬
+145. RHABARBERSAFT          0,4L    3,80â‚¬
+146. MARACUJA NEKTAR         0,3L    2,80â‚¬
+147. MARACUJA NEKTAR         0,4L    3,80â‚¬
 BIERE VOM FASS
-148. BECK‘S           0,3L    3,60€
-149. BECK‘S           0,4L     4.40€
-150. ALSTER           0,3L     3,60€
-151. ALSTER           0,4L   4,40€
-152. HAAKEBECK KRÄUSEN         0,3L     4,10€
-153. HAAKEBECK KRÄUSEN         0,4L     4,80€
+148. BECKâ€˜S           0,3L    3,60â‚¬
+149. BECKâ€˜S           0,4L     4.40â‚¬
+150. ALSTER           0,3L     3,60â‚¬
+151. ALSTER           0,4L   4,40â‚¬
+152. HAAKEBECK KRÃ„USEN         0,3L     4,10â‚¬
+153. HAAKEBECK KRÃ„USEN         0,4L     4,80â‚¬
 FLASCHENBIERE
-154. VITA MALZ              2,50€
-155. BECK‘S BLUE ALKOHOLFREI           2,90€
-156. FRANZISKANER KELLERBIER        0,5L     4,80€
-157. FRANZISKANER HEFEWEIZEN           4,80€
-158. FRANZISKANER DUNKEL            4,80€
-159. FRANZISKANER ALKOHOLFREI           4,80€
+154. VITA MALZ              2,50â‚¬
+155. BECKâ€˜S BLUE ALKOHOLFREI           2,90â‚¬
+156. FRANZISKANER KELLERBIER        0,5L     4,80â‚¬
+157. FRANZISKANER HEFEWEIZEN           4,80â‚¬
+158. FRANZISKANER DUNKEL            4,80â‚¬
+159. FRANZISKANER ALKOHOLFREI           4,80â‚¬
 
---- PAGE ---
-
+--- PAGE 14 ---
 14
 DAPHNE
 SCHAUMWEINE-, SECCo
-160. HUGO MIT MINZE AUF EIS                0,25 L     5,50€
-GRIECHISCHE WEINE
-161. PROSECCO FRIZZANTE               0,25 L     3,00€
-162. APEROL                                       0,75L     6,50€
-OFFENE WEIßWEINE
-163. WEINSCHORLE               0,25L     4,50€
-164. DEMESTICA TROCKEN              0,25L    4,90€
-165. DEMESTICA TROCKEN                0,5L    9,50€
-166. IMIGLIKOS LIEBLICH              0,25L     4,50€
-167. IMIGLIKOS LIEBLICH                0,5L    9,00€
-168. MAKEDONIKOS HALBTROCKEN             0,25L   4,60€
-169. MAKEDONIKOS HALBTROCKEN                  0,5L     9,20€
-170. SAMOS SÜB                0,25L     5,90€
-171. SAMOS SÜB                    0,5L    11,80€
-172. RETSINA GEHARZT               0,25L     4,60€
-173. RETSINA GEHARZT                 0,5L    9,20€
-174. ROSE TROCKERN              0,25L     4,50€
-175. ROSE TROCKEN                0,5L     9,00€
+160. HUGO MIT MINZE AUF EIS                0,25 L     5,50â‚¬
+161. PROSECCO FRIZZANTE               0,25 L     3,00â‚¬
+162. APEROL                                       0,25 L     6,50â‚¬
+OFFENE WEIÃŸWEINE
+163. WEINSCHORLE               0,25L     4,50â‚¬
+164. DEMESTICA TROCKEN              0,25L    4,90â‚¬
+165. DEMESTICA TROCKEN                0,5L    9,50â‚¬
+166. IMIGLIKOS LIEBLICH              0,25L     4,50â‚¬
+167. IMIGLIKOS LIEBLICH                0,5L    9,00â‚¬
+168. MAKEDONIKOS HALBTROCKEN             0,25L   4,60â‚¬
+169. MAKEDONIKOS HALBTROCKEN                  0,5L     9,20â‚¬
+170. SAMOS SÃœB                0,25L     5,90â‚¬
+171. SAMOS SÃœB                    0,5L    11,80â‚¬
+172. RETSINA GEHARZT               0,25L     4,60â‚¬
+173. RETSINA GEHARZT                 0,5L    9,20â‚¬
+174. ROSE TROCKERN              0,25L     4,50â‚¬
+175. ROSE TROCKEN                0,5L     9,00â‚¬
 OFFENE ROTWEINE
-176. DEMESTICA TROCKEN              0,25L     4,90€
-177. DEMESTICA TROCKEN         0,5L    9,50€
-178. NAOUSSA TROCKEN              0,25L     4,60€
-179. NAOUSSA TROCKEN         0,5L     9,20€
-180. IMIGLIKOS LIEBLICH               0,25L    4,50€
-181. IMIGLIKOS LIEBLICH         0,5L     9,00€
-182. MAKEDONIKOS HALBTROCKEN              0,25L     4,60€
-183. MAKEDONIKOS HALBTROCKEN        0,5L     9,20€
-184. MAVRODAPHNE SÜB              0,25L     5,90€
-185. MAVRODAPHNE SÜB         0,5L    11,80€
+176. DEMESTICA TROCKEN              0,25L     4,90â‚¬
+177. DEMESTICA TROCKEN         0,5L    9,50â‚¬
+178. NAOUSSA TROCKEN              0,25L     4,60â‚¬
+179. NAOUSSA TROCKEN         0,5L     9,20â‚¬
+180. IMIGLIKOS LIEBLICH               0,25L    4,50â‚¬
+181. IMIGLIKOS LIEBLICH         0,5L     9,00â‚¬
+182. MAKEDONIKOS HALBTROCKEN              0,25L     4,60â‚¬
+183. MAKEDONIKOS HALBTROCKEN        0,5L     9,20â‚¬
+184. MAVRODAPHNE SÃœB              0,25L     5,90â‚¬
+185. MAVRODAPHNE SÃœB         0,5L    11,80â‚¬
+GRIECHISCHE WEINE
 
---- PAGE ---
-
+--- PAGE 15 ---
 15
 DAPHNE
 INTERNATIONAL 
 WEINEWEINE
 
---- PAGE ---
-
+--- PAGE 16 ---
 16
 DAPHNE
 WEISSWEINE
@@ -414,57 +488,56 @@ IST EINE WEISSE REBSORTE AUS FRANKREICH
 BESONDERS IN BURGUND . 
 1991 WURDE DER CHARDONNAY IN 
 DEUTSCHLAND ZUGELASSEN UND SEHR BELIEBT 
-(FRUCHTIG TROCKEN UND KRÄFTIG IM 
+(FRUCHTIG TROCKEN UND KRÃ„FTIG IM 
 GESCHMACK)
 187. PINOT GRIGIO
 IST DIE ITALIENISCHE BEZEICHNUNG DER 
 REBSORTE GRAUBURGUNDER. 
 BEDEUTENDE ANBAUREGIONEN IST ITALIEN AUCH 
-FÜR DIE ITALIENER IST DER PINOT GRIGIO SEHR 
+FÃœR DIE ITALIENER IST DER PINOT GRIGIO SEHR 
 BELIEBT. 
 (FRISCH, FRUCHTIG UND ERFRISCHENDES 
-SÄURESPIEL)
+SÃ„URESPIEL)
 188. GRAUBURGUNDER
-IST EINE HOCHWERTIGE REBE URSPRÜNGLICH 
-AUS DEM FRANZÖSISCHEM BURGUND. 
+IST EINE HOCHWERTIGE REBE URSPRÃœNGLICH 
+AUS DEM FRANZÃ–SISCHEM BURGUND. 
 EIGNET SICH AUCH IN VIELEN ANBAUGEBIETEN IN 
 DEUTSCHLAND UNTER ANDEREM AN DER MOSEL. 
-(TROCKEN,MITTELKRÄFTIG UND ETWAS 
-SÄUREBETONT)
+(TROCKEN,MITTELKRÃ„FTIG UND ETWAS 
+SÃ„UREBETONT)
 189. RIESLING
 IST EINE REBSORTE VORWIEGEND AUS 
 DEUTSCHLAND. 
 DIE RIESLING-TRAUBE ENTFALTET SICH 
-HERVORRAGEND AN KÜHLEN, SONNIGEN LAGEN 
+HERVORRAGEND AN KÃœHLEN, SONNIGEN LAGEN 
 WIE Z B.AN DER MOSEL. 
-(FRUCHTIGE SÄURE,TROCKEN UND LEICHT IM 
+(FRUCHTIGE SÃ„URE,TROCKEN UND LEICHT IM 
 GESCHMACK)
-5,70 €
-5,90 €
-5,90 €
-11,00 €
-11,00 €
-11,60 €
+5,70 â‚¬
+5,90 â‚¬
+5,90 â‚¬
+11,00 â‚¬
+11,00 â‚¬
+11,60 â‚¬
 0,25 L
 0,25 L
 0,25 L
-5,90 €
-11,40 €
+5,90 â‚¬
+11,40 â‚¬
 0,25 L
 0,5 L
 0,5 L
 0,5 L
 0,5 L
 
---- PAGE ---
-
+--- PAGE 17 ---
 17
 DAPHNE
 190. BARDOLINO 
-FÜR DEN BARDOLINO WERDEN VERSCHIEDENE 
+FÃœR DEN BARDOLINO WERDEN VERSCHIEDENE 
 REBSORTEN VERWENDET UNTER ANDEREM 
 MERLOT UND CABERNET SAUVIGNON. 
-(TROCKEN, SPRITZIG UND WÜRZIG LEICHT)
+(TROCKEN, SPRITZIG UND WÃœRZIG LEICHT)
 191. MERLOT
 DER MERLOT IST AUCH EINER DER BELIEBTESTEN 
 ROTWEINSORTEN WELTWEIT. 
@@ -473,40 +546,43 @@ UM DAS WEINANBAUGEBIET BORDEAUX ZU
 FINDEN. 
 (LEICHT HALBTROCKEN, WEICH UND 
 GESCHMEIDIG)
-192. SPÄTBURGUNDER
-DER SPÄTBURGUNDER ZÄHLT ZU DEN QUALITATIV 
+192. SPÃ„TBURGUNDER
+DER SPÃ„TBURGUNDER ZÃ„HLT ZU DEN QUALITATIV 
 HOCHWERTIGEN ROTWEINEN. 
-DER SPÄTBURGUNDER WIRD AUFGRUND SEINER 
-QUALITÄT IN DER WEINWELT  ALS EDELREBE 
+DER SPÃ„TBURGUNDER WIRD AUFGRUND SEINER 
+QUALITÃ„T IN DER WEINWELT  ALS EDELREBE 
 BEZEICHNET. 
 (HALBTROCKEN, FRUCHTIG UND VOLLMUNDIG)
 193. ROSEWEIN-BARDOLINO 
 CHIARETTO
-AUCH FÜR DEN BARDOLINO ROSE WERDEN 
+AUCH FÃœR DEN BARDOLINO ROSE WERDEN 
 VERSCHIEDENE REBSORTEN VERWENDET 
 UNTER ANDEREM AUCH DER MERLOT UND DER 
 CABERNET SAUVIGNON. 
-GEKÜHLT EIN GENUSS. 
+GEKÃœHLT EIN GENUSS. 
 (LEICHT TROCKEN,FRUCHTIG UND SPRITZIG)
 -ROTWEIN-
-5,60 €
-5,90 €
-5,40 €
-11,40 €
-11,20 €
-10,40 €
+5,60 â‚¬
+5,90 â‚¬
+5,40 â‚¬
+11,40 â‚¬
+11,20 â‚¬
+10,40 â‚¬
 0,25 L
 0,25 L
 0,25 L
-5,40 €
-11,20 €
+5,40 â‚¬
+11,20 â‚¬
 0,25 L
 0,5 L
 0,5 L
 0,5 L
 0,5 L
 
---- PAGE ---
-
+--- PAGE 18 ---
 EISLEBENER STR. 70, 28329 BREMEN WWW.DAPHNEBREMEN.DE0421- 17507002
-
+LISTE DER KENNZEICHNUNGSPFLICHTIGEN INHALISSTOFFE UND ALLERGENE :
+1. MIT KONSERVIERUNGSSTOFF ODER KONSERVIERT -2. CHININHALTIG -3. MIT PHOSPHAT-4. MITANTIOXIDATIONSMITTEL- 
+6.KOFFEINHALTIG-7.MIT FARBSTOFF -8.MIT SÃœSSUNGSMITTEL -9. MITGESCHMACKSVERSTÃ„RKER
+A. GETREIDE - B. EIER - C. SOJA - D. MILCH - E. SENF - F.WEICHTIERE - G.KREBSTIERE -
+H.SCHWEFELDIOXID UND S SULPHITE -I. FISCHE-J. SELLERIE -K.SESAM
