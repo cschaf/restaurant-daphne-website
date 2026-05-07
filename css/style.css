@@ -596,16 +596,20 @@ section h2::after {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    gap: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .menu-item-title {
+    min-width: 0;
     font-weight: 600;
     font-size: 1.2rem;
     color: var(--clr-gold);
 }
 
 .menu-item-price {
+    flex-shrink: 0;
+    white-space: nowrap;
     font-weight: 700;
     color: var(--clr-text-main);
     font-size: 1.1rem;
